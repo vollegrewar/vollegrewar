@@ -141,7 +141,7 @@ def main():
 
     # ---- 3. Counts --------------------------------------------------------
     issues_count = len(authored_issues)
-    prs_count = len(authored_prs)
+    pr_reviews_count = len([r for r in contributed.values() if r["is_pr"]])
     participated_count = len(rows_sorted)
 
     # ---- 4. Badges --------------------------------------------------------
@@ -150,17 +150,17 @@ def main():
         f"?logo=github&logoColor=white)]"
         f"(https://github.com/{REPO}/issues?q=author%3A{USER})"
     )
-    badge_prs = (
-        f"[![Pull Requests](https://img.shields.io/badge/PRs-{prs_count}-brightgreen"
+    badge_pr_reviews = (
+        f"[![PR Reviews](https://img.shields.io/badge/PR_Reviews-{pr_reviews_count}-brightgreen"
         f"?logo=github&logoColor=white)]"
-        f"(https://github.com/{REPO}/pulls?q=author%3A{USER})"
+        f"(https://github.com/{REPO}/pulls?q=involves%3A{USER})"
     )
     badge_participated = (
         f"[![Participated](https://img.shields.io/badge/Participated-{participated_count}-orange"
         f"?logo=github&logoColor=white)]"
         f"(https://github.com/{REPO}/issues?q=involves%3A{USER})"
     )
-    badges = "\n".join([badge_issues, badge_prs, badge_participated])
+    badges = "\n".join([badge_issues, badge_pr_reviews, badge_participated])
 
     # ---- 5. Table ---------------------------------------------------------
     header = "| # | Type | Role | Labels | Title | Status |"
@@ -199,7 +199,7 @@ def main():
         f.write(text)
 
     print(
-        f"OK: issues={issues_count} prs={prs_count} "
+        f"OK: issues={issues_count} pr_reviews={pr_reviews_count} "
         f"participated={participated_count} rows={len(rows_sorted)}"
     )
     for r in rows_sorted:
