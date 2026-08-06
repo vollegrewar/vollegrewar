@@ -1,40 +1,71 @@
 # Hi there 👋
 
-I'm **vollegrewar** — Chinese novel-writing workflow builder & active contributor to the **Hermes Agent** community.
+I'm **vollegrewar** — a developer focused on browser automation, web scraping, and AI-assisted workflows. Active contributor to the **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** open-source project.
 
-## 🤝 Hermes Agent Community Contributions
+## 🛠 Tech Stack
+
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
+![Chrome Extensions](https://img.shields.io/badge/-Chrome_Extensions-4285F4?logo=googlechrome&logoColor=white&style=flat)
+![CDP Automation](https://img.shields.io/badge/-CDP_Automation-4285F4?logo=googlechrome&logoColor=white&style=flat)
+![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white&style=flat)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white&style=flat)
+![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?logo=githubactions&logoColor=white&style=flat)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?logo=sqlite&logoColor=white&style=flat)
+
+## 🤝 Open Source Contributions
+
+### Hermes Agent ([NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)) — 227k ⭐
 
 <!-- CONTRIB_BADGES -->
-[![Hermes Issues Created](https://img.shields.io/badge/Hermes_Issues_Created-1-blue)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
-[![Hermes Discussions](https://img.shields.io/badge/Hermes_Discussions-5-green)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
+[![Issues](https://img.shields.io/badge/Issues-2-blue?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
+[![Pull Requests](https://img.shields.io/badge/PRs-0-brightgreen?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/pulls?q=author%3Avollegrewar)
+[![Participated](https://img.shields.io/badge/Participated-6-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
 <!-- /CONTRIB_BADGES -->
 
-### Contribution record
-
 <!-- CONTRIB_TABLE -->
-| [#78981](https://github.com/NousResearch/hermes-agent/issues/78981) | Issue | Session permanently dies after repeated context-compression hangs (DeepSeek 500k-token session): stalled stream waits 600s ceiling, interrupted turn never recovers, later messages never start a turn | 🟢 Open |
-| [#77156](https://github.com/NousResearch/hermes-agent/pull/77156) | PR | feat(temperature): add per-session and global sampling temperature control | 🟢 Open |
-| [#76886](https://github.com/NousResearch/hermes-agent/issues/76886) | Issue | read_file reports valid UTF-8 text as binary when the 1000-byte sample cuts a multibyte character (regression in 0.19.1) | 🟢 Open |
-| [#74443](https://github.com/NousResearch/hermes-agent/pull/74443) | PR | feat: honor model temperature configuration | 🟢 Open |
-| [#46169](https://github.com/NousResearch/hermes-agent/issues/46169) | Issue | Desktop should support Ctrl+F/Cmd+F find across chat and UI editors | 🔴 Closed |
+| # | Type | Role | Labels | Title | Status |
+|--|------|------|--------|-------|--------|
+| [#80498](https://github.com/NousResearch/hermes-agent/issues/80498) | Issue | Author | type/bug, comp/agent, tool/file | Tool-call arguments silently replaced with empty object when stream dies mid-call — silent data loss, no retry (write_file never executed) | 🟢 Open |
+| [#78981](https://github.com/NousResearch/hermes-agent/issues/78981) | Issue | Author | type/bug, comp/agent, P1 | Session permanently dies after repeated context-compression hangs (DeepSeek 500k-token session): stalled stream waits 600s ceiling, interrupted turn never recovers, later messages never start a turn | 🟢 Open |
+| [#77156](https://github.com/NousResearch/hermes-agent/pull/77156) | PR | Participant | type/feature, comp/agent, comp/cli | feat(temperature): add per-session and global sampling temperature control | 🟢 Open |
+| [#76886](https://github.com/NousResearch/hermes-agent/issues/76886) | Issue | Participant | type/bug, comp/tools, tool/file | read_file reports valid UTF-8 text as binary when the 1000-byte sample cuts a multibyte character (regression in 0.19.1) | 🟢 Open |
+| [#74443](https://github.com/NousResearch/hermes-agent/pull/74443) | PR | Participant | type/feature, comp/agent, area/config | feat: honor model temperature configuration | 🟢 Open |
+| [#46169](https://github.com/NousResearch/hermes-agent/issues/46169) | Issue | Participant | type/feature, comp/tui, P3 | Desktop should support Ctrl+F/Cmd+F find across chat and UI editors | 🔴 Closed |
 <!-- /CONTRIB_TABLE -->
 
-> 💡 This table is auto-refreshed weekly by GitHub Actions — see `.github/workflows/update-contribs.yml`.
-
-### Quick query (run it yourself)
-
-```bash
-gh api search/issues -f q='involves:vollegrewar repo:NousResearch/hermes-agent'
-```
+> 💡 Auto-refreshed weekly via GitHub Actions (next: every Monday 00:00 UTC).
 
 ---
 
-## 📦 My Projects
+## 📦 Project Experience
 
-| Project | Description |
-|---------|-------------|
-| [Tiger-hub](https://github.com/vollegrewar/Tiger-hub) | a experimental heap of stupid new person |
+*Private repositories — described by technical domain and engineering challenges only.*
+
+| Domain | Key Technologies | Highlights |
+|--------|-----------------|------------|
+| 🎮 **Browser Game Automation** | Python · CDP · OpenCV · Flask · WebSocket | Event-driven state machine, visual template matching (0.997 confidence), multi-profile concurrent scheduling, CDP Network monitoring with DOM fallback |
+| 🕷️ **Web Scraping Framework** | Python · requests · BeautifulSoup · Flask | Dual-encoding pipeline (UTF-8/Big5), smart proxy routing with domain-level caching, Discuz! DX forum adapter, resume/patch error recovery |
+| 🧩 **Chrome MV3 Extension** | JavaScript · Manifest V3 · Declarative Net Request | URL rewriting rules, cross-origin adaptation, CDP-verified selector validation |
+| 🎵 **ML Model Deployment** | Python · PyTorch · HuggingFace Hub | Audio generation pipeline, RoPE patching, 41GB checkpoint management, Windows compatibility adaptation |
+| ✍️ **AI-Assisted Writing** | Python · Multi-LLM Orchestration | 4-phase pipeline (analysis→outline→write→revise), 100K+ character long-form fiction, multi-model consistency checking |
+| 🐛 **QA & Debugging Tools** | Python · CDP · git · GitHub API | Root-cause analysis framework, automated regression verification, batch testing with pytest |
 
 ---
 
-*Profile maintained with ❤️ — contributions stats are fetched from the public GitHub API.*
+## 📊 GitHub Stats
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=vollegrewar&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" />
+    <img src="https://github-readme-stats.vercel.app/api?username=vollegrewar&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" height="160" alt="GitHub Stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=vollegrewar&layout=compact&theme=dark&hide_border=true&langs_count=6" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vollegrewar&layout=compact&theme=default&hide_border=true&langs_count=6" height="160" alt="Top Languages" />
+  </picture>
+</p>
+
+---
+
+*Profile maintained with ❤️ — contribution stats auto-refreshed weekly.*
