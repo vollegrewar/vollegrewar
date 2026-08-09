@@ -26,6 +26,7 @@ I'm **vollegrewar** — a developer focused on browser automation, web scraping,
 <!-- CONTRIB_TABLE -->
 | # | Type | Role | Labels | Title | Status |
 |--|------|------|--------|-------|--------|
+| [#82505](https://github.com/NousResearch/hermes-agent/pull/82505) | PR | Author | - | fix(desktop): deterministic title for untitled chat sessions | 🟢 Open |
 | [#80542](https://github.com/NousResearch/hermes-agent/issues/80542) | Issue | Author | - | [Feature]: Desktop — untitled sessions are unidentifiable (86% of sessions have NULL title; no meaningful fallback label) | 🟢 Open |
 | [#80498](https://github.com/NousResearch/hermes-agent/issues/80498) | Issue | Author | type/bug, comp/agent, tool/file | Tool-call arguments silently replaced with empty object when stream dies mid-call — silent data loss, no retry (write_file never executed) | 🟢 Open |
 | [#78981](https://github.com/NousResearch/hermes-agent/issues/78981) | Issue | Author | type/bug, comp/agent, P1 | Session permanently dies after repeated context-compression hangs (DeepSeek 500k-token session): stalled stream waits 600s ceiling, interrupted turn never recovers, later messages never start a turn | 🟢 Open |
@@ -36,6 +37,14 @@ I'm **vollegrewar** — a developer focused on browser automation, web scraping,
 <!-- /CONTRIB_TABLE -->
 
 > 💡 Auto-refreshed weekly via GitHub Actions (next: every Monday 00:00 UTC).
+
+### Hugging Face Hub ([huggingface/huggingface_hub](https://github.com/huggingface/huggingface_hub))
+
+| # | Type | Role | Title | Status |
+|--|------|------|-------|--------|
+| [#4648](https://github.com/huggingface/huggingface_hub/pull/4648) | PR | Author | Fix metadata fetch on endpoints that return absolute redirects | 🟢 Open |
+| [#4644](https://github.com/huggingface/huggingface_hub/pull/4644) | PR | Reviewer | Preserve query string when following relative redirects | 🟢 Open |
+| [#4637](https://github.com/huggingface/huggingface_hub/issues/4637) | Issue | Author | snapshot_download fails with misleading LocalEntryNotFoundError when HF_ENDPOINT mirror 308-redirects to the Hub (x-repo-commit missing); relative-redirect follower drops query string | 🟢 Open |
 
 ---
 
