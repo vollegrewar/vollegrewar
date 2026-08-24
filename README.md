@@ -19,8 +19,8 @@ I'm **vollegrewar** — a developer focused on browser automation, web scraping,
 
 <!-- CONTRIB_BADGES -->
 [![Issues](https://img.shields.io/badge/Issues-7-blue?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
-[![PR Reviews](https://img.shields.io/badge/PR_Reviews-9-brightgreen?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/pulls?q=involves%3Avollegrewar)
-[![Participated](https://img.shields.io/badge/Participated-21-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
+[![PR Reviews](https://img.shields.io/badge/PR_Reviews-10-brightgreen?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/pulls?q=involves%3Avollegrewar)
+[![Participated](https://img.shields.io/badge/Participated-23-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
 <!-- /CONTRIB_BADGES -->
 
 <!-- CONTRIB_TABLE -->
@@ -31,7 +31,7 @@ I'm **vollegrewar** — a developer focused on browser automation, web scraping,
 | [#83192](https://github.com/NousResearch/hermes-agent/issues/83192) | Issue | Author | type/bug, P3, sweeper:risk-platform-windows | Bug: find-in-page bar (Ctrl+F) overlaps native window controls on Windows — verified, covered by #80244 | 🔴 Closed |
 | [#82689](https://github.com/NousResearch/hermes-agent/issues/82689) | Issue | Author | type/bug, comp/cron, P3 | kanban: no operator audit on assign + dispatcher executes side-effectful tasks without authorization gate | 🟢 Open |
 | [#82635](https://github.com/NousResearch/hermes-agent/issues/82635) | Issue | Author | type/bug, P3, comp/desktop | [Bug]: Desktop Settings → Chat timezone dropdown truncates long IANA option names — popover width pinned to trigger | 🟢 Open |
-| [#82581](https://github.com/NousResearch/hermes-agent/pull/82581) | PR | Participant | type/bug, comp/tools, tool/code-exec | fix(tools): isolate subprocess Python environments (#74817) | 🟢 Open |
+| [#82581](https://github.com/NousResearch/hermes-agent/pull/82581) | PR | Participant | type/bug, comp/cli, tool/terminal | fix(tools): isolate subprocess Python environments (#74817) | 🔴 Closed |
 | [#82505](https://github.com/NousResearch/hermes-agent/pull/82505) | PR | Author | type/feature, P3, sweeper:risk-session-state | fix(desktop): deterministic title for untitled chat sessions | 🟢 Open |
 | [#80542](https://github.com/NousResearch/hermes-agent/issues/80542) | Issue | Author | type/feature, P3, sweeper:risk-session-state | [Feature]: Desktop — untitled sessions are unidentifiable (86% of sessions have NULL title; no meaningful fallback label) | 🟢 Open |
 | [#80498](https://github.com/NousResearch/hermes-agent/issues/80498) | Issue | Author | type/bug, comp/agent, tool/file | Tool-call arguments silently replaced with empty object when stream dies mid-call — silent data loss, no retry (write_file never executed) | 🔴 Closed |
@@ -40,9 +40,11 @@ I'm **vollegrewar** — a developer focused on browser automation, web scraping,
 | [#78981](https://github.com/NousResearch/hermes-agent/issues/78981) | Issue | Author | type/bug, comp/agent, provider/deepseek | Session permanently dies after repeated context-compression hangs (DeepSeek 500k-token session): stalled stream waits 600s ceiling, interrupted turn never recovers, later messages never start a turn | 🟢 Open |
 | [#77156](https://github.com/NousResearch/hermes-agent/pull/77156) | PR | Participant | type/feature, comp/agent, comp/cli | feat(temperature): add per-session and global sampling temperature control | 🟢 Open |
 | [#76886](https://github.com/NousResearch/hermes-agent/issues/76886) | Issue | Participant | type/bug, comp/tools, tool/file | read_file reports valid UTF-8 text as binary when the 1000-byte sample cuts a multibyte character (regression in 0.19.1) | 🔴 Closed |
-| [#74817](https://github.com/NousResearch/hermes-agent/issues/74817) | Issue | Participant | type/bug, tool/terminal, backend/local | PYTHONPATH leaks into terminal-tool subprocesses on macOS/Linux, can crash unrelated third-party apps | 🟢 Open |
+| [#75334](https://github.com/NousResearch/hermes-agent/issues/75334) | Issue | Participant | type/bug, duplicate, P2 | Bug: Desktop self-update always aborts when a non-Desktop-owned gateway process holds the venv lock (Windows) | 🟢 Open |
+| [#74817](https://github.com/NousResearch/hermes-agent/issues/74817) | Issue | Participant | type/bug, tool/terminal, backend/local | PYTHONPATH leaks into terminal-tool subprocesses on macOS/Linux, can crash unrelated third-party apps | 🔴 Closed |
 | [#74443](https://github.com/NousResearch/hermes-agent/pull/74443) | PR | Participant | type/feature, comp/agent, area/config | feat: honor model temperature configuration | 🟢 Open |
 | [#67463](https://github.com/NousResearch/hermes-agent/pull/67463) | PR | Participant | type/bug, duplicate, P3 | fix(desktop): split sidebar into independent Projects + Sessions collapsible sections (#67368) | 🟢 Open |
+| [#59041](https://github.com/NousResearch/hermes-agent/pull/59041) | PR | Participant | type/bug, comp/agent, comp/gateway | fix: prevent credential pool poisoning from model-not-found 401s and api_mode persistence | 🔴 Closed |
 | [#51893](https://github.com/NousResearch/hermes-agent/pull/51893) | PR | Participant | type/bug, P3, sweeper:risk-message-delivery | fix(desktop): handle notification action indexes | 🟢 Open |
 | [#51444](https://github.com/NousResearch/hermes-agent/issues/51444) | Issue | Participant | type/bug, P2, comp/desktop | [Bug]: Approval from notification doesn't work | 🟢 Open |
 | [#46169](https://github.com/NousResearch/hermes-agent/issues/46169) | Issue | Participant | type/feature, comp/tui, P3 | Desktop should support Ctrl+F/Cmd+F find across chat and UI editors | 🔴 Closed |
