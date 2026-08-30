@@ -1,8 +1,21 @@
 # Hi there 👋
 
-I'm **vollegrewar** — a developer focused on browser automation, web scraping, and AI-assisted workflows. Active contributor to the **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** open-source project.
+I'm **vollegrewar** — a builder with a professional QA background, working AI-native: I define requirements, orchestrate coding agents, and drive multi-round iteration to acceptance. In my personal projects the implementation code is authored by AI under my direction — what's mine is the problem framing, the course-correction, and the quality bar.
+
+Active contributor to the **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** open-source project.
 
 ## 🛠 Tech Stack
+
+**Hands-on — things I drive myself:**
+
+![ComfyUI](https://img.shields.io/badge/-ComfyUI-1A1A2E?style=flat)
+![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat)
+![LM Studio](https://img.shields.io/badge/-LM_Studio-5C3EE8?style=flat)
+![RAG](https://img.shields.io/badge/-RAG·Qwen3_Embedding-FF6F00?style=flat)
+![Prompt/Spec Engineering](https://img.shields.io/badge/-Prompt·Spec_Engineering-7E57C2?style=flat)
+![QA & Testing](https://img.shields.io/badge/-QA_&_Testing-2E7D32?style=flat)
+
+**Project stacks — AI-implemented, my requirements & acceptance:**
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
@@ -15,7 +28,7 @@ I'm **vollegrewar** — a developer focused on browser automation, web scraping,
 
 ## 🤝 Open Source Contributions
 
-### Hermes Agent ([NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)) — 227k ⭐
+### Hermes Agent ([NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)) — 238k ⭐
 
 <!-- CONTRIB_BADGES -->
 [![Issues](https://img.shields.io/badge/Issues-7-blue?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
@@ -57,24 +70,27 @@ I'm **vollegrewar** — a developer focused on browser automation, web scraping,
 
 | # | Type | Role | Title | Status |
 |--|------|------|-------|--------|
-| [#4648](https://github.com/huggingface/huggingface_hub/pull/4648) | PR | Author | Fix metadata fetch on endpoints that return absolute redirects | 🟢 Open |
+| [#4739](https://github.com/huggingface/huggingface_hub/pull/4739) | PR (upstream) | Same solution merged | Follow redirects between Hub hosts when resolving files | 🟣 Merged 2026-08-28 — supersedes my [#4648](https://github.com/huggingface/huggingface_hub/pull/4648) with the same approach |
+| [#4648](https://github.com/huggingface/huggingface_hub/pull/4648) | PR | Author | Fix metadata fetch on endpoints that return absolute redirects (HF_ENDPOINT mirrors) | 🔴 Closed — approach adopted upstream via [#4739](https://github.com/huggingface/huggingface_hub/pull/4739) |
 | [#4644](https://github.com/huggingface/huggingface_hub/pull/4644) | PR | Reviewer | Preserve query string when following relative redirects | 🟢 Open |
-| [#4637](https://github.com/huggingface/huggingface_hub/issues/4637) | Issue | Author | snapshot_download fails with misleading LocalEntryNotFoundError when HF_ENDPOINT mirror 308-redirects to the Hub (x-repo-commit missing); relative-redirect follower drops query string | 🟢 Open |
+| [#4637](https://github.com/huggingface/huggingface_hub/issues/4637) | Issue | Author | snapshot_download fails with misleading LocalEntryNotFoundError when HF_ENDPOINT mirror 308-redirects to the Hub | 🔴 Closed — confirmed & fixed upstream |
 
 ---
 
 ## 📦 Project Experience
 
-*Private repositories — described by technical domain and engineering challenges only.*
+*Personal projects, built AI-native — I own requirement definition, agent orchestration and acceptance; implementation is authored by AI agents under my direction. Repos are private — described by domain and engineering intent.*
 
-| Domain | Key Technologies | Highlights |
-|--------|-----------------|------------|
-| 🎮 **Browser Game Automation** | Python · CDP · OpenCV · Flask · WebSocket | Event-driven state machine, visual template matching (0.997 confidence), multi-profile concurrent scheduling, CDP Network monitoring with DOM fallback |
-| 🕷️ **Web Scraping Framework** | Python · requests · BeautifulSoup · Flask | Dual-encoding pipeline (UTF-8/Big5), smart proxy routing with domain-level caching, Discuz! DX forum adapter, resume/patch error recovery |
-| 🧩 **Chrome MV3 Extension** | JavaScript · Manifest V3 · Declarative Net Request | URL rewriting rules, cross-origin adaptation, CDP-verified selector validation |
-| 🎵 **ML Model Deployment** | Python · PyTorch · HuggingFace Hub | Audio generation pipeline, RoPE patching, 41GB checkpoint management, Windows compatibility adaptation |
-| ✍️ **AI-Assisted Writing** | Python · Multi-LLM Orchestration | 4-phase pipeline (analysis→outline→write→revise), 100K+ character long-form fiction, multi-model consistency checking |
-| 🐛 **QA & Debugging Tools** | Python · CDP · git · GitHub API | Root-cause analysis framework, automated regression verification, batch testing with pytest |
+| Domain | Stack | What I drove |
+|--------|-------|--------------|
+| 🎮 **Browser Game Rescue Automation** | Python · CDP · OpenCV · Flask | Requirements & acceptance for an event-driven state machine, visual template-matching rescue flow, multi-profile scheduling. Aug 2026: shipped a humanized-input module (timing jitter, Bézier click paths, real wheel events) — with explicit red lines: no fingerprint spoofing, no anti-detection evasion |
+| 🕷️ **Novel Crawler Framework** | Python · requests · BeautifulSoup | Pipeline requirements: UTF-8/Big5 dual-encoding, domain-level proxy routing, Discuz! DX forum adapter, resume-based error recovery. Aug 2026: drove the GUI redesign spec (native profile picker, migration prompt, lock pre-check) |
+| 🧩 **Chrome MV3 Extension** | JavaScript · Manifest V3 · Declarative Net Request | Specified URL-rewriting rules and cross-origin adaptation; verified behavior via CDP |
+| 📈 **A-share Quant Backtesting** | Python | Defined strategy & backtest requirements, set acceptance criteria, reviewed results |
+| ✍️ **AI-Assisted Writing Pipeline** → [ai-writing-pipeline-demo](https://github.com/vollegrewar/ai-writing-pipeline-demo) | Python · Multi-LLM orchestration | **My strongest area — designed end-to-end myself**: 4-phase pipeline (analysis → outline → write → revise), consistency checking with explicit OOC criteria (character shifts must be event-driven; character cards as behavioral baseline), layered gates (mechanical issues automated, semantic judgment human), de-AI-flavor rule set with detection & repair. 100K+ character long-form fiction |
+| 🖼️ **Local Inference & Image Generation** | Ollama · LM Studio · ComfyUI | Local LLM inference on consumer hardware; custom ComfyUI image-generation workflows built node-by-node, hands-on with parameters |
+
+Also maintaining [windows-terminal-hygiene](https://github.com/vollegrewar/windows-terminal-hygiene) — a checklist that keeps agent terminal commands from hanging on Windows.
 
 ---
 
