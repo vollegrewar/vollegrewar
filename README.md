@@ -31,15 +31,16 @@ Active contributor to the **[Hermes Agent](https://github.com/NousResearch/herme
 ### Hermes Agent ([NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)) — 238k ⭐
 
 <!-- CONTRIB_BADGES -->
-[![Issues](https://img.shields.io/badge/Issues-7-blue?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
+[![Issues](https://img.shields.io/badge/Issues-8-blue?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
 [![PR Reviews](https://img.shields.io/badge/PR_Reviews-10-brightgreen?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/pulls?q=involves%3Avollegrewar)
-[![Participated](https://img.shields.io/badge/Participated-23-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
+[![Participated](https://img.shields.io/badge/Participated-24-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
 <!-- /CONTRIB_BADGES -->
 
 <!-- CONTRIB_TABLE -->
 | # | Type | Role | Labels | Title | Status |
 |--|------|------|--------|-------|--------|
-| [#86272](https://github.com/NousResearch/hermes-agent/pull/86272) | PR | Author | type/bug, P2, sweeper:risk-session-state | [codex] fix desktop profile project gateway routing | 🟢 Open |
+| [#98436](https://github.com/NousResearch/hermes-agent/issues/98436) | Issue | Author | type/bug, comp/cli, P2 | [Bug][Windows] hermes update hand-off child silently loses its update receipt after the catch-up module purge — console end state also looks hung | 🟢 Open |
+| [#86272](https://github.com/NousResearch/hermes-agent/pull/86272) | PR | Author | type/bug, P2, sweeper:risk-session-state | [codex] fix desktop profile project gateway routing | 🔴 Closed |
 | [#86107](https://github.com/NousResearch/hermes-agent/issues/86107) | Issue | Author | type/bug, P3, needs-repro | [Bug]: Desktop — single explicit project entry vanishes from sidebar Projects list mid-session; survives restart (backend intact) | 🟢 Open |
 | [#83192](https://github.com/NousResearch/hermes-agent/issues/83192) | Issue | Author | type/bug, P3, sweeper:risk-platform-windows | Bug: find-in-page bar (Ctrl+F) overlaps native window controls on Windows — verified, covered by #80244 | 🔴 Closed |
 | [#82689](https://github.com/NousResearch/hermes-agent/issues/82689) | Issue | Author | type/bug, comp/cron, P3 | kanban: no operator audit on assign + dispatcher executes side-effectful tasks without authorization gate | 🟢 Open |
@@ -49,8 +50,8 @@ Active contributor to the **[Hermes Agent](https://github.com/NousResearch/herme
 | [#80542](https://github.com/NousResearch/hermes-agent/issues/80542) | Issue | Author | type/feature, P3, sweeper:risk-session-state | [Feature]: Desktop — untitled sessions are unidentifiable (86% of sessions have NULL title; no meaningful fallback label) | 🟢 Open |
 | [#80498](https://github.com/NousResearch/hermes-agent/issues/80498) | Issue | Author | type/bug, comp/agent, tool/file | Tool-call arguments silently replaced with empty object when stream dies mid-call — silent data loss, no retry (write_file never executed) | 🔴 Closed |
 | [#80244](https://github.com/NousResearch/hermes-agent/pull/80244) | PR | Participant | type/bug, P3, sweeper:risk-platform-windows | fix(desktop): keep the find bar clear of the window controls | 🔴 Closed |
-| [#80122](https://github.com/NousResearch/hermes-agent/pull/80122) | PR | Participant | type/bug, comp/agent, P1 | fix(agent): handle auxiliary stream stalls and prevent turn ghosting  | 🟢 Open |
-| [#78981](https://github.com/NousResearch/hermes-agent/issues/78981) | Issue | Author | type/bug, comp/agent, provider/deepseek | Session permanently dies after repeated context-compression hangs (DeepSeek 500k-token session): stalled stream waits 600s ceiling, interrupted turn never recovers, later messages never start a turn | 🟢 Open |
+| [#80122](https://github.com/NousResearch/hermes-agent/pull/80122) | PR | Participant | type/bug, comp/agent, P1 | fix(agent): handle auxiliary stream stalls and prevent turn ghosting  | 🔴 Closed |
+| [#78981](https://github.com/NousResearch/hermes-agent/issues/78981) | Issue | Author | type/bug, comp/agent, provider/deepseek | Session permanently dies after repeated context-compression hangs (DeepSeek 500k-token session): stalled stream waits 600s ceiling, interrupted turn never recovers, later messages never start a turn | 🔴 Closed |
 | [#77156](https://github.com/NousResearch/hermes-agent/pull/77156) | PR | Participant | type/feature, comp/agent, comp/cli | feat(temperature): add per-session and global sampling temperature control | 🟢 Open |
 | [#76886](https://github.com/NousResearch/hermes-agent/issues/76886) | Issue | Participant | type/bug, comp/tools, tool/file | read_file reports valid UTF-8 text as binary when the 1000-byte sample cuts a multibyte character (regression in 0.19.1) | 🔴 Closed |
 | [#75334](https://github.com/NousResearch/hermes-agent/issues/75334) | Issue | Participant | type/bug, duplicate, P2 | Bug: Desktop self-update always aborts when a non-Desktop-owned gateway process holds the venv lock (Windows) | 🟢 Open |
