@@ -31,15 +31,16 @@ Active contributor to the **[Hermes Agent](https://github.com/NousResearch/herme
 ### Hermes Agent ([NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)) — 238k ⭐
 
 <!-- CONTRIB_BADGES -->
-[![Issues](https://img.shields.io/badge/Issues-8-blue?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
+[![Issues](https://img.shields.io/badge/Issues-9-blue?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
 [![PR Reviews](https://img.shields.io/badge/PR_Reviews-10-brightgreen?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/pulls?q=involves%3Avollegrewar)
-[![Participated](https://img.shields.io/badge/Participated-24-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
+[![Participated](https://img.shields.io/badge/Participated-25-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
 <!-- /CONTRIB_BADGES -->
 
 <!-- CONTRIB_TABLE -->
 | # | Type | Role | Labels | Title | Status |
 |--|------|------|--------|-------|--------|
-| [#98436](https://github.com/NousResearch/hermes-agent/issues/98436) | Issue | Author | type/bug, comp/cli, P2 | [Bug][Windows] hermes update hand-off child silently loses its update receipt after the catch-up module purge — console end state also looks hung | 🟢 Open |
+| [#102398](https://github.com/NousResearch/hermes-agent/issues/102398) | Issue | Author | duplicate, type/feature, P3 | [Feature]: Desktop Settings — a visible, per-profile approvals.mode selector | 🔴 Closed |
+| [#98436](https://github.com/NousResearch/hermes-agent/issues/98436) | Issue | Author | type/bug, comp/cli, P2 | [Bug][Windows] hermes update hand-off child silently loses its update receipt after the catch-up module purge — console end state also looks hung | 🔴 Closed |
 | [#86272](https://github.com/NousResearch/hermes-agent/pull/86272) | PR | Author | type/bug, P2, sweeper:risk-session-state | [codex] fix desktop profile project gateway routing | 🔴 Closed |
 | [#86107](https://github.com/NousResearch/hermes-agent/issues/86107) | Issue | Author | type/bug, P3, needs-repro | [Bug]: Desktop — single explicit project entry vanishes from sidebar Projects list mid-session; survives restart (backend intact) | 🟢 Open |
 | [#83192](https://github.com/NousResearch/hermes-agent/issues/83192) | Issue | Author | type/bug, P3, sweeper:risk-platform-windows | Bug: find-in-page bar (Ctrl+F) overlaps native window controls on Windows — verified, covered by #80244 | 🔴 Closed |
