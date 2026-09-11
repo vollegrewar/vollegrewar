@@ -32,13 +32,15 @@ Active contributor to the **[Hermes Agent](https://github.com/NousResearch/herme
 
 <!-- CONTRIB_BADGES -->
 [![Issues](https://img.shields.io/badge/Issues-9-blue?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
-[![PR Reviews](https://img.shields.io/badge/PR_Reviews-10-brightgreen?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/pulls?q=involves%3Avollegrewar)
-[![Participated](https://img.shields.io/badge/Participated-25-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
+[![PR Reviews](https://img.shields.io/badge/PR_Reviews-11-brightgreen?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/pulls?q=involves%3Avollegrewar)
+[![Participated](https://img.shields.io/badge/Participated-28-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
 <!-- /CONTRIB_BADGES -->
 
 <!-- CONTRIB_TABLE -->
 | # | Type | Role | Labels | Title | Status |
 |--|------|------|--------|-------|--------|
+| [#107823](https://github.com/NousResearch/hermes-agent/pull/107823) | PR | Participant | type/bug, P2, comp/desktop | fix(desktop): restore minimized sessions from sidebar toggle | 🟢 Open |
+| [#103793](https://github.com/NousResearch/hermes-agent/issues/103793) | Issue | Participant | type/bug, tool/tts, P3 | [Bug][Windows] Local STT fails: "Library cublas64_12.dll is not found or cannot be loaded" — fix via CUDA 12 wheels in the venv (GPU) or forcing CPU | 🟢 Open |
 | [#102398](https://github.com/NousResearch/hermes-agent/issues/102398) | Issue | Author | duplicate, type/feature, P3 | [Feature]: Desktop Settings — a visible, per-profile approvals.mode selector | 🔴 Closed |
 | [#98436](https://github.com/NousResearch/hermes-agent/issues/98436) | Issue | Author | type/bug, comp/cli, P2 | [Bug][Windows] hermes update hand-off child silently loses its update receipt after the catch-up module purge — console end state also looks hung | 🔴 Closed |
 | [#86272](https://github.com/NousResearch/hermes-agent/pull/86272) | PR | Author | type/bug, P2, sweeper:risk-session-state | [codex] fix desktop profile project gateway routing | 🔴 Closed |
@@ -51,6 +53,7 @@ Active contributor to the **[Hermes Agent](https://github.com/NousResearch/herme
 | [#80542](https://github.com/NousResearch/hermes-agent/issues/80542) | Issue | Author | type/feature, P3, sweeper:risk-session-state | [Feature]: Desktop — untitled sessions are unidentifiable (86% of sessions have NULL title; no meaningful fallback label) | 🟢 Open |
 | [#80498](https://github.com/NousResearch/hermes-agent/issues/80498) | Issue | Author | type/bug, comp/agent, tool/file | Tool-call arguments silently replaced with empty object when stream dies mid-call — silent data loss, no retry (write_file never executed) | 🔴 Closed |
 | [#80244](https://github.com/NousResearch/hermes-agent/pull/80244) | PR | Participant | type/bug, P3, sweeper:risk-platform-windows | fix(desktop): keep the find bar clear of the window controls | 🔴 Closed |
+| [#80204](https://github.com/NousResearch/hermes-agent/issues/80204) | Issue | Participant | type/bug, tool/mcp, P1 | [Bug]: Hermes Desktop leaves orphaned `hermes serve`, MCP watchdog, and daemon Python processes after exit/update | 🔴 Closed |
 | [#80122](https://github.com/NousResearch/hermes-agent/pull/80122) | PR | Participant | type/bug, comp/agent, P1 | fix(agent): handle auxiliary stream stalls and prevent turn ghosting  | 🔴 Closed |
 | [#78981](https://github.com/NousResearch/hermes-agent/issues/78981) | Issue | Author | type/bug, comp/agent, provider/deepseek | Session permanently dies after repeated context-compression hangs (DeepSeek 500k-token session): stalled stream waits 600s ceiling, interrupted turn never recovers, later messages never start a turn | 🔴 Closed |
 | [#77156](https://github.com/NousResearch/hermes-agent/pull/77156) | PR | Participant | type/feature, comp/agent, comp/cli | feat(temperature): add per-session and global sampling temperature control | 🟢 Open |
@@ -60,8 +63,8 @@ Active contributor to the **[Hermes Agent](https://github.com/NousResearch/herme
 | [#74443](https://github.com/NousResearch/hermes-agent/pull/74443) | PR | Participant | type/feature, comp/agent, area/config | feat: honor model temperature configuration | 🟢 Open |
 | [#67463](https://github.com/NousResearch/hermes-agent/pull/67463) | PR | Participant | type/bug, duplicate, P3 | fix(desktop): split sidebar into independent Projects + Sessions collapsible sections (#67368) | 🟢 Open |
 | [#59041](https://github.com/NousResearch/hermes-agent/pull/59041) | PR | Participant | type/bug, comp/agent, comp/gateway | fix: prevent credential pool poisoning from model-not-found 401s and api_mode persistence | 🔴 Closed |
-| [#51893](https://github.com/NousResearch/hermes-agent/pull/51893) | PR | Participant | type/bug, P3, sweeper:risk-message-delivery | fix(desktop): handle notification action indexes | 🟢 Open |
-| [#51444](https://github.com/NousResearch/hermes-agent/issues/51444) | Issue | Participant | type/bug, P2, comp/desktop | [Bug]: Approval from notification doesn't work | 🟢 Open |
+| [#51893](https://github.com/NousResearch/hermes-agent/pull/51893) | PR | Participant | type/bug, P3, sweeper:risk-message-delivery | fix(desktop): handle notification action indexes | 🔴 Closed |
+| [#51444](https://github.com/NousResearch/hermes-agent/issues/51444) | Issue | Participant | type/bug, P2, comp/desktop | [Bug]: Approval from notification doesn't work | 🔴 Closed |
 | [#46169](https://github.com/NousResearch/hermes-agent/issues/46169) | Issue | Participant | type/feature, comp/tui, P3 | Desktop should support Ctrl+F/Cmd+F find across chat and UI editors | 🔴 Closed |
 | [#29457](https://github.com/NousResearch/hermes-agent/issues/29457) | Issue | Participant | type/feature, comp/cron, P3 | [Feature]: Kanban task request for approval | 🟢 Open |
 <!-- /CONTRIB_TABLE -->
