@@ -31,15 +31,17 @@ Active contributor to the **[Hermes Agent](https://github.com/NousResearch/herme
 ### Hermes Agent ([NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)) — 238k ⭐
 
 <!-- CONTRIB_BADGES -->
-[![Issues](https://img.shields.io/badge/Issues-9-blue?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
+[![Issues](https://img.shields.io/badge/Issues-11-blue?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
 [![PR Reviews](https://img.shields.io/badge/PR_Reviews-11-brightgreen?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/pulls?q=involves%3Avollegrewar)
-[![Participated](https://img.shields.io/badge/Participated-28-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
+[![Participated](https://img.shields.io/badge/Participated-30-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
 <!-- /CONTRIB_BADGES -->
 
 <!-- CONTRIB_TABLE -->
 | # | Type | Role | Labels | Title | Status |
 |--|------|------|--------|-------|--------|
-| [#107823](https://github.com/NousResearch/hermes-agent/pull/107823) | PR | Participant | type/bug, P2, comp/desktop | fix(desktop): restore minimized sessions from sidebar toggle | 🟢 Open |
+| [#109680](https://github.com/NousResearch/hermes-agent/issues/109680) | Issue | Author | type/bug, comp/cli, P2 | [Bug]: stale gateway_state.json + PID reuse fabricates a phantom gateway runtime in the pre-update inventory — update exits 1 (partial) with "no rows" + "never touched" warnings | 🔴 Closed |
+| [#108630](https://github.com/NousResearch/hermes-agent/issues/108630) | Issue | Author | type/bug, comp/tui, P2 | [Bug] Auto-archive leaves the canonical "Bot Chat" with no recoverable end_reason — permanent title deadlock not covered by #92687 / #92473 | 🟢 Open |
+| [#107823](https://github.com/NousResearch/hermes-agent/pull/107823) | PR | Participant | type/bug, P2, comp/desktop | fix(desktop): restore minimized sessions from sidebar toggle | 🔴 Closed |
 | [#103793](https://github.com/NousResearch/hermes-agent/issues/103793) | Issue | Participant | type/bug, tool/tts, P3 | [Bug][Windows] Local STT fails: "Library cublas64_12.dll is not found or cannot be loaded" — fix via CUDA 12 wheels in the venv (GPU) or forcing CPU | 🟢 Open |
 | [#102398](https://github.com/NousResearch/hermes-agent/issues/102398) | Issue | Author | duplicate, type/feature, P3 | [Feature]: Desktop Settings — a visible, per-profile approvals.mode selector | 🔴 Closed |
 | [#98436](https://github.com/NousResearch/hermes-agent/issues/98436) | Issue | Author | type/bug, comp/cli, P2 | [Bug][Windows] hermes update hand-off child silently loses its update receipt after the catch-up module purge — console end state also looks hung | 🔴 Closed |
