@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Update Hermes Agent contribution badges + table in README.md.
+"""Update Hermes Agent contribution badges + full log in README.md.
 
-v2 — Separates Issues from PRs for accurate counting.
-Fetches labels for richer contribution context.
-Distinguishes "Author" vs "Participant" role per entry.
+v3 — Badge semantics fixed: authored Issues / authored PRs / total involved.
+Table slimmed to [# / Type / Role / Title / Status]; the labels column was
+noise on the profile and is gone. The curated highlights table lives OUTSIDE
+the markers and is never touched by this script.
 """
 import json, os, re, urllib.parse, urllib.request
 
@@ -24,8 +25,8 @@ query($cursor: String) {
       pageInfo { hasNextPage endCursor }
       nodes {
         repository { nameWithOwner }
-        issue   { number title state createdAt labels(first:5) { nodes { name } } }
-        pullRequest { number title state createdAt labels(first:5) { nodes { name } } }
+        issue   { number title state createdAt }
+        pullRequest { number title state createdAt }
       }
     }
   }
@@ -56,21 +57,6 @@ def api_get(path):
         return json.loads(resp.read().decode())
 
 
-def fmt_labels(item):
-    """Extract top-3 label names from a REST or GraphQL item node."""
-    labels_node = item.get("labels")
-    if not labels_node:
-        return "-"
-    if isinstance(labels_node, list):
-        # REST format: [{"name":"P1"}, ...]
-        names = [l["name"] for l in labels_node if isinstance(l, dict)]
-    else:
-        # GraphQL format: {"nodes":[{"name":"P1"}, ...]}
-        nodes = labels_node.get("nodes", []) if isinstance(labels_node, dict) else []
-        names = [n["name"] for n in nodes if isinstance(n, dict)]
-    return ", ".join(names[:3]) if names else "-"
-
-
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -96,7 +82,6 @@ def main():
                 "state": it["state"],
                 "created": it["createdAt"],
                 "is_pr": bool(node.get("pullRequest")),
-                "labels": fmt_labels(it),
             }
         if not conn["pageInfo"]["hasNextPage"]:
             break
@@ -111,7 +96,7 @@ def main():
     authored_issues = [it for it in authored_items if "pull_request" not in it]
     authored_prs = [it for it in authored_items if "pull_request" in it]
 
-    # Merge authored items into contributed (enrich with labels)
+    # Merge authored items into contributed
     authored_nums = set()
     for it in authored_items:
         num = it["number"]
@@ -123,12 +108,7 @@ def main():
                 "state": it["state"],
                 "created": it["created_at"],
                 "is_pr": "pull_request" in it,
-                "labels": fmt_labels(it),
             }
-        else:
-            # Already there from comments; backfill labels if missing
-            if contributed[num].get("labels") == "-":
-                contributed[num]["labels"] = fmt_labels(it)
 
     # Tag role: "Author" if the user opened it, else "Participant"
     for num, info in contributed.items():
@@ -141,8 +121,8 @@ def main():
 
     # ---- 3. Counts --------------------------------------------------------
     issues_count = len(authored_issues)
-    pr_reviews_count = len([r for r in contributed.values() if r["is_pr"]])
-    participated_count = len(rows_sorted)
+    pr_count = len(authored_prs)
+    involved_count = len(rows_sorted)
 
     # ---- 4. Badges --------------------------------------------------------
     badge_issues = (
@@ -150,31 +130,30 @@ def main():
         f"?logo=github&logoColor=white)]"
         f"(https://github.com/{REPO}/issues?q=author%3A{USER})"
     )
-    badge_pr_reviews = (
-        f"[![PR Reviews](https://img.shields.io/badge/PR_Reviews-{pr_reviews_count}-brightgreen"
+    badge_prs = (
+        f"[![PRs](https://img.shields.io/badge/PRs-{pr_count}-brightgreen"
         f"?logo=github&logoColor=white)]"
-        f"(https://github.com/{REPO}/pulls?q=involves%3A{USER})"
+        f"(https://github.com/{REPO}/pulls?q=author%3A{USER})"
     )
-    badge_participated = (
-        f"[![Participated](https://img.shields.io/badge/Participated-{participated_count}-orange"
+    badge_involved = (
+        f"[![Involved](https://img.shields.io/badge/Involved-{involved_count}-orange"
         f"?logo=github&logoColor=white)]"
         f"(https://github.com/{REPO}/issues?q=involves%3A{USER})"
     )
-    badges = "\n".join([badge_issues, badge_pr_reviews, badge_participated])
+    badges = "\n".join([badge_issues, badge_prs, badge_involved])
 
     # ---- 5. Table ---------------------------------------------------------
-    header = "| # | Type | Role | Labels | Title | Status |"
-    sep = "|--|------|------|--------|-------|--------|"
+    header = "| # | Type | Role | Title | Status |"
+    sep = "|--|------|------|-------|--------|"
     rows = [header, sep]
     for r in rows_sorted:
         typ = "PR" if r["is_pr"] else "Issue"
         state = "🟢 Open" if str(r["state"]).lower() == "open" else "🔴 Closed"
         role = r.get("role", "Participant")
-        labels = r.get("labels", "-")
         title = r["title"].replace("|", "/")
         url = f"https://github.com/{REPO}/{'pull' if r['is_pr'] else 'issues'}/{r['number']}"
         rows.append(
-            f"| [#{r['number']}]({url}) | {typ} | {role} | {labels} | {title} | {state} |"
+            f"| [#{r['number']}]({url}) | {typ} | {role} | {title} | {state} |"
         )
     table = "\n".join(rows)
 
@@ -199,8 +178,8 @@ def main():
         f.write(text)
 
     print(
-        f"OK: issues={issues_count} pr_reviews={pr_reviews_count} "
-        f"participated={participated_count} rows={len(rows_sorted)}"
+        f"OK: authored_issues={issues_count} authored_prs={pr_count} "
+        f"involved={involved_count} rows={len(rows_sorted)}"
     )
     for r in rows_sorted:
         role = r.get("role", "?")
