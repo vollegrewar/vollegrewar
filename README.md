@@ -38,6 +38,7 @@ I file bugs with reproduction evidence, verify fixes on real Windows environment
 | [hermes-agent #78981](https://github.com/NousResearch/hermes-agent/issues/78981) | 500k-token session dying permanently after context-compression hangs | ✅ Fixed |
 | [hermes-agent #80498](https://github.com/NousResearch/hermes-agent/issues/80498) | Silent tool-call argument loss when a stream dies mid-call (no retry, `write_file` never ran) | ✅ Fixed |
 | [hermes-agent #98436](https://github.com/NousResearch/hermes-agent/issues/98436) | Windows `hermes update` silently loses its receipt; console end state looks hung | ✅ Fixed |
+| [get-a-job #3](https://github.com/helsonxiao/get-a-job/issues/3) · [#4](https://github.com/helsonxiao/get-a-job/pull/4) | README declared MIT but the repo shipped no `LICENSE`, so GitHub reported no license at all — issue + patch, merged 8 minutes after the PR opened | ✅ Merged |
 
 > Also on huggingface_hub: a formal review on [#4644](https://github.com/huggingface/huggingface_hub/pull/4644) (preserving query strings through relative redirects) — same fix lineage as the adopted [#4739](https://github.com/huggingface/huggingface_hub/pull/4739).
 
