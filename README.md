@@ -45,9 +45,9 @@ I file bugs with reproduction evidence, verify fixes on real Windows environment
 ### Hermes Agent — full log
 
 <!-- CONTRIB_BADGES -->
-[![Issues](https://img.shields.io/badge/Issues-11-blue?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
-[![PRs](https://img.shields.io/badge/PRs-4-brightgreen?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/pulls?q=author%3Avollegrewar)
-[![Involved](https://img.shields.io/badge/Involved-34-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
+[![Issues](https://img.shields.io/badge/Issues-12-blue?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
+[![PRs](https://img.shields.io/badge/PRs-5-brightgreen?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/pulls?q=author%3Avollegrewar)
+[![Involved](https://img.shields.io/badge/Involved-36-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
 <!-- /CONTRIB_BADGES -->
 
 <details>
@@ -56,10 +56,12 @@ I file bugs with reproduction evidence, verify fixes on real Windows environment
 <!-- CONTRIB_TABLE -->
 | # | Type | Role | Title | Status |
 |--|------|------|-------|--------|
-| [#112158](https://github.com/NousResearch/hermes-agent/pull/112158) | PR | Author | catalog: add anysearch (community web search/extract plugin) | 🟢 Open |
+| [#114119](https://github.com/NousResearch/hermes-agent/pull/114119) | PR | Author | fix(tui_gateway): flag failed tool calls on the tool.complete frame | 🟢 Open |
+| [#113977](https://github.com/NousResearch/hermes-agent/issues/113977) | Issue | Author | [Bug]: Windows 'hermes gateway start' installs login auto-start on non-interactive stdin - all three prompts default to Yes | 🔴 Closed |
+| [#112158](https://github.com/NousResearch/hermes-agent/pull/112158) | PR | Author | catalog: add anysearch (community web search/extract plugin) | 🔴 Closed |
 | [#110721](https://github.com/NousResearch/hermes-agent/pull/110721) | PR | Author | feat(pets): derive sprite cell size from the atlas grid | 🟢 Open |
 | [#109680](https://github.com/NousResearch/hermes-agent/issues/109680) | Issue | Author | [Bug]: stale gateway_state.json + PID reuse fabricates a phantom gateway runtime in the pre-update inventory — update exits 1 (partial) with "no rows" + "never touched" warnings | 🔴 Closed |
-| [#108630](https://github.com/NousResearch/hermes-agent/issues/108630) | Issue | Author | [Bug] Auto-archive leaves the canonical "Bot Chat" with no recoverable end_reason — permanent title deadlock not covered by #92687 / #92473 | 🟢 Open |
+| [#108630](https://github.com/NousResearch/hermes-agent/issues/108630) | Issue | Author | [Bug] Auto-archive leaves the canonical "Bot Chat" with no recoverable end_reason — permanent title deadlock not covered by #92687 / #92473 | 🔴 Closed |
 | [#107823](https://github.com/NousResearch/hermes-agent/pull/107823) | PR | Participant | fix(desktop): restore minimized sessions from sidebar toggle | 🔴 Closed |
 | [#103793](https://github.com/NousResearch/hermes-agent/issues/103793) | Issue | Participant | [Bug][Windows] Local STT fails: "Library cublas64_12.dll is not found or cannot be loaded" — fix via CUDA 12 wheels in the venv (GPU) or forcing CPU | 🟢 Open |
 | [#102398](https://github.com/NousResearch/hermes-agent/issues/102398) | Issue | Author | [Feature]: Desktop Settings — a visible, per-profile approvals.mode selector | 🔴 Closed |
@@ -78,7 +80,7 @@ I file bugs with reproduction evidence, verify fixes on real Windows environment
 | [#80122](https://github.com/NousResearch/hermes-agent/pull/80122) | PR | Participant | fix(agent): handle auxiliary stream stalls and prevent turn ghosting  | 🔴 Closed |
 | [#78981](https://github.com/NousResearch/hermes-agent/issues/78981) | Issue | Author | Session permanently dies after repeated context-compression hangs (DeepSeek 500k-token session): stalled stream waits 600s ceiling, interrupted turn never recovers, later messages never start a turn | 🔴 Closed |
 | [#77394](https://github.com/NousResearch/hermes-agent/issues/77394) | Issue | Participant | Windows: hermes update still fails on main — paused gateway keeps _rust.pyd locked (fix #73684 does not cover respawned gateways) | 🟢 Open |
-| [#77156](https://github.com/NousResearch/hermes-agent/pull/77156) | PR | Participant | feat(temperature): add per-session and global sampling temperature control | 🟢 Open |
+| [#77156](https://github.com/NousResearch/hermes-agent/pull/77156) | PR | Participant | feat(temperature): add per-session and global sampling temperature control | 🔴 Closed |
 | [#76886](https://github.com/NousResearch/hermes-agent/issues/76886) | Issue | Participant | read_file reports valid UTF-8 text as binary when the 1000-byte sample cuts a multibyte character (regression in 0.19.1) | 🔴 Closed |
 | [#75334](https://github.com/NousResearch/hermes-agent/issues/75334) | Issue | Participant | Bug: Desktop self-update always aborts when a non-Desktop-owned gateway process holds the venv lock (Windows) | 🟢 Open |
 | [#74817](https://github.com/NousResearch/hermes-agent/issues/74817) | Issue | Participant | PYTHONPATH leaks into terminal-tool subprocesses on macOS/Linux, can crash unrelated third-party apps | 🔴 Closed |
