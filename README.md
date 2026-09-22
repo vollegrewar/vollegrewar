@@ -105,7 +105,7 @@ I file bugs with reproduction evidence, verify fixes on real Windows environment
 
 > **[ai-writing-pipeline-demo](https://github.com/vollegrewar/ai-writing-pipeline-demo)** — a reproducible 4-phase pipeline for 100K+-character long-form generation (analysis → outline → writing → review): multi-model orchestration with degraded paths, consistency gates, a de-AI-flavor rule system, and corpus data engineering. Distilled from a real long-running project; no content included.
 
-More public repos: [hermes-plugin-anysearch](https://github.com/vollegrewar/hermes-plugin-anysearch) · [dsh-tool-highlight](https://github.com/vollegrewar/dsh-tool-highlight) · [windows-terminal-hygiene](https://github.com/vollegrewar/windows-terminal-hygiene)
+More public repos: [kengwei-tujian](https://github.com/vollegrewar/kengwei-tujian) · [hermes-plugin-anysearch](https://github.com/vollegrewar/hermes-plugin-anysearch) · [dsh-tool-highlight](https://github.com/vollegrewar/dsh-tool-highlight) · [defect-driven-api-testing](https://github.com/vollegrewar/defect-driven-api-testing) · [windows-terminal-hygiene](https://github.com/vollegrewar/windows-terminal-hygiene)
 
 **Private builds** — engineering showcase; domain & stack only
 
