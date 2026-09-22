@@ -2,7 +2,7 @@
 
 I'm **vollegrewar** — an AI-native builder with a professional QA background. I **vibe-code** working systems: I define requirements and the acceptance bar, orchestrate coding agents, verify every iteration, and own what ships. In my projects the implementation is authored by AI under my direction — the problem framing, course-correction, and quality bar are mine.
 
-Active contributor to **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** (246k ⭐) and **[Hugging Face Hub](https://github.com/huggingface/huggingface_hub)** — often as the Windows side of the story: reproductions, multi-round verification, and patches.
+Active contributor to **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** (248k ⭐) and **[Hugging Face Hub](https://github.com/huggingface/huggingface_hub)** — often as the Windows side of the story: reproductions, multi-round verification, and patches.
 
 ## 🛠 Tech Stack
 
@@ -33,7 +33,8 @@ I file bugs with reproduction evidence, verify fixes on real Windows environment
 | [huggingface_hub #4637](https://github.com/huggingface/huggingface_hub/issues/4637) · [#4648](https://github.com/huggingface/huggingface_hub/pull/4648) | `snapshot_download` misreported mirror 308-redirects as missing files — my issue + fix approach **adopted upstream** | ✅ Merged ([#4739](https://github.com/huggingface/huggingface_hub/pull/4739)) |
 | [hermes-agent #82581](https://github.com/NousResearch/hermes-agent/pull/82581) · [#74817](https://github.com/NousResearch/hermes-agent/issues/74817) | Windows 11 junction-install reproduction + multi-round retest of the subprocess-isolation fix — maintainer cited "the real Windows 11 junction verification" | ✅ Merged ([#88285](https://github.com/NousResearch/hermes-agent/pull/88285)) |
 | [hermes-agent #110721](https://github.com/NousResearch/hermes-agent/pull/110721) | Derive sprite cell size from the atlas grid — 2x-resolution pet atlases now render end-to-end | 🟡 Open PR |
-| [hermes-agent #112158](https://github.com/NousResearch/hermes-agent/pull/112158) | My [anysearch plugin](https://github.com/vollegrewar/hermes-plugin-anysearch) proposed to the official plugin catalog | 🟡 Open PR |
+| [hermes-agent #112158](https://github.com/NousResearch/hermes-agent/pull/112158) | My [anysearch plugin](https://github.com/vollegrewar/hermes-plugin-anysearch) accepted into the official plugin catalog | ✅ Merged |
+| [hermes-agent #118497](https://github.com/NousResearch/hermes-agent/issues/118497) | Link-card titles come out as mojibake for Big5/GBK/Shift-JIS pages — traced to `Response.text()` always decoding as UTF-8 | 🟢 Open · community picked it up |
 | [hermes-agent #109680](https://github.com/NousResearch/hermes-agent/issues/109680) | Stale state + PID reuse fabricated a phantom gateway runtime, silently breaking updates — root-caused | ✅ Fixed |
 | [hermes-agent #78981](https://github.com/NousResearch/hermes-agent/issues/78981) | 500k-token session dying permanently after context-compression hangs | ✅ Fixed |
 | [hermes-agent #80498](https://github.com/NousResearch/hermes-agent/issues/80498) | Silent tool-call argument loss when a stream dies mid-call (no retry, `write_file` never ran) | ✅ Fixed |
@@ -45,9 +46,9 @@ I file bugs with reproduction evidence, verify fixes on real Windows environment
 ### Hermes Agent — full log
 
 <!-- CONTRIB_BADGES -->
-[![Issues](https://img.shields.io/badge/Issues-12-blue?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
+[![Issues](https://img.shields.io/badge/Issues-13-blue?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
 [![PRs](https://img.shields.io/badge/PRs-5-brightgreen?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/pulls?q=author%3Avollegrewar)
-[![Involved](https://img.shields.io/badge/Involved-36-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
+[![Involved](https://img.shields.io/badge/Involved-38-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
 <!-- /CONTRIB_BADGES -->
 
 <details>
@@ -56,6 +57,8 @@ I file bugs with reproduction evidence, verify fixes on real Windows environment
 <!-- CONTRIB_TABLE -->
 | # | Type | Role | Title | Status |
 |--|------|------|-------|--------|
+| [#118497](https://github.com/NousResearch/hermes-agent/issues/118497) | Issue | Author | [Desktop] Link-card title is mojibake for non-UTF-8 pages (Big5/GBK/Shift-JIS) — faviconIo.fetchText uses Response.text(), which always decodes as UTF-8 | 🟢 Open |
+| [#115027](https://github.com/NousResearch/hermes-agent/pull/115027) | PR | Participant | fix(desktop): answer batch clarify on request socket | 🟢 Open |
 | [#114119](https://github.com/NousResearch/hermes-agent/pull/114119) | PR | Author | fix(tui_gateway): flag failed tool calls on the tool.complete frame | 🟢 Open |
 | [#113977](https://github.com/NousResearch/hermes-agent/issues/113977) | Issue | Author | [Bug]: Windows 'hermes gateway start' installs login auto-start on non-interactive stdin - all three prompts default to Yes | 🔴 Closed |
 | [#112158](https://github.com/NousResearch/hermes-agent/pull/112158) | PR | Author | catalog: add anysearch (community web search/extract plugin) | 🔴 Closed |
