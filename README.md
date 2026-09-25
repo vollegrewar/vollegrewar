@@ -2,7 +2,7 @@
 
 I'm **vollegrewar** — an AI-native builder with a professional QA background. I **vibe-code** working systems: I define requirements and the acceptance bar, orchestrate coding agents, verify every iteration, and own what ships. In my projects the implementation is authored by AI under my direction — the problem framing, course-correction, and quality bar are mine.
 
-Active contributor to **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** (248k ⭐) and **[Hugging Face Hub](https://github.com/huggingface/huggingface_hub)** — often as the Windows side of the story: reproductions, multi-round verification, and patches.
+Active contributor to **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** (249k ⭐) and **[Hugging Face Hub](https://github.com/huggingface/huggingface_hub)** — often as the Windows side of the story: reproductions, multi-round verification, and patches.
 
 ## 🛠 Tech Stack
 
@@ -34,7 +34,9 @@ I file bugs with reproduction evidence, verify fixes on real Windows environment
 | [hermes-agent #82581](https://github.com/NousResearch/hermes-agent/pull/82581) · [#74817](https://github.com/NousResearch/hermes-agent/issues/74817) | Windows 11 junction-install reproduction + multi-round retest of the subprocess-isolation fix — maintainer cited "the real Windows 11 junction verification" | ✅ Merged ([#88285](https://github.com/NousResearch/hermes-agent/pull/88285)) |
 | [hermes-agent #110721](https://github.com/NousResearch/hermes-agent/pull/110721) | Derive sprite cell size from the atlas grid — 2x-resolution pet atlases now render end-to-end | 🟡 Open PR |
 | [hermes-agent #112158](https://github.com/NousResearch/hermes-agent/pull/112158) | My [anysearch plugin](https://github.com/vollegrewar/hermes-plugin-anysearch) accepted into the official plugin catalog | ✅ Merged |
-| [hermes-agent #118497](https://github.com/NousResearch/hermes-agent/issues/118497) | Link-card titles come out as mojibake for Big5/GBK/Shift-JIS pages — traced to `Response.text()` always decoding as UTF-8 | 🟢 Open · community picked it up |
+| [hermes-agent #118497](https://github.com/NousResearch/hermes-agent/issues/118497) | Link-card titles come out as mojibake for Big5/GBK/Shift-JIS pages — traced to `Response.text()` always decoding as UTF-8 | ✅ Fixed |
+| [hermes-agent #113977](https://github.com/NousResearch/hermes-agent/issues/113977) | Windows `hermes gateway start` silently installed a login auto-start: on non-interactive stdin all three prompts defaulted to Yes | ✅ Fixed |
+| [hermes-agent #122800](https://github.com/NousResearch/hermes-agent/issues/122800) | One blocked `pyproject.toml` write discarded the whole dependency sync after a 2000-commit update and left a permanent `source-completion-pending` marker, re-running a 4-minute completion on every launch | 🟢 Open · root-caused |
 | [hermes-agent #109680](https://github.com/NousResearch/hermes-agent/issues/109680) | Stale state + PID reuse fabricated a phantom gateway runtime, silently breaking updates — root-caused | ✅ Fixed |
 | [hermes-agent #78981](https://github.com/NousResearch/hermes-agent/issues/78981) | 500k-token session dying permanently after context-compression hangs | ✅ Fixed |
 | [hermes-agent #80498](https://github.com/NousResearch/hermes-agent/issues/80498) | Silent tool-call argument loss when a stream dies mid-call (no retry, `write_file` never ran) | ✅ Fixed |
@@ -46,9 +48,9 @@ I file bugs with reproduction evidence, verify fixes on real Windows environment
 ### Hermes Agent — full log
 
 <!-- CONTRIB_BADGES -->
-[![Issues](https://img.shields.io/badge/Issues-13-blue?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
+[![Issues](https://img.shields.io/badge/Issues-14-blue?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=author%3Avollegrewar)
 [![PRs](https://img.shields.io/badge/PRs-5-brightgreen?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/pulls?q=author%3Avollegrewar)
-[![Involved](https://img.shields.io/badge/Involved-38-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
+[![Involved](https://img.shields.io/badge/Involved-44-orange?logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/issues?q=involves%3Avollegrewar)
 <!-- /CONTRIB_BADGES -->
 
 <details>
@@ -57,7 +59,11 @@ I file bugs with reproduction evidence, verify fixes on real Windows environment
 <!-- CONTRIB_TABLE -->
 | # | Type | Role | Title | Status |
 |--|------|------|-------|--------|
-| [#118497](https://github.com/NousResearch/hermes-agent/issues/118497) | Issue | Author | [Desktop] Link-card title is mojibake for non-UTF-8 pages (Big5/GBK/Shift-JIS) — faviconIo.fetchText uses Response.text(), which always decodes as UTF-8 | 🟢 Open |
+| [#122800](https://github.com/NousResearch/hermes-agent/issues/122800) | Issue | Author | [Bug]: `pm/workspace.py` writes `pyproject.toml` without transient-lock retry — one blocked write discards the whole dependency sync and leaves a permanent `source-completion-pending` marker (Windows) | 🟢 Open |
+| [#122206](https://github.com/NousResearch/hermes-agent/issues/122206) | Issue | Participant | fix(desktop): recover when the backend becomes ready after an interrupted update exceeds startup wait | 🟢 Open |
+| [#120005](https://github.com/NousResearch/hermes-agent/issues/120005) | Issue | Participant | Desktop: chats on a non-default profile stream garbled text and show duplicate bubbles (two sockets to one backend) | 🔴 Closed |
+| [#118901](https://github.com/NousResearch/hermes-agent/issues/118901) | Issue | Participant | [Bug]: Composer timer continues ticking after task completion | 🟢 Open |
+| [#118497](https://github.com/NousResearch/hermes-agent/issues/118497) | Issue | Author | [Desktop] Link-card title is mojibake for non-UTF-8 pages (Big5/GBK/Shift-JIS) — faviconIo.fetchText uses Response.text(), which always decodes as UTF-8 | 🔴 Closed |
 | [#115027](https://github.com/NousResearch/hermes-agent/pull/115027) | PR | Participant | fix(desktop): answer batch clarify on request socket | 🟢 Open |
 | [#114119](https://github.com/NousResearch/hermes-agent/pull/114119) | PR | Author | fix(tui_gateway): flag failed tool calls on the tool.complete frame | 🟢 Open |
 | [#113977](https://github.com/NousResearch/hermes-agent/issues/113977) | Issue | Author | [Bug]: Windows 'hermes gateway start' installs login auto-start on non-interactive stdin - all three prompts default to Yes | 🔴 Closed |
@@ -69,11 +75,13 @@ I file bugs with reproduction evidence, verify fixes on real Windows environment
 | [#103793](https://github.com/NousResearch/hermes-agent/issues/103793) | Issue | Participant | [Bug][Windows] Local STT fails: "Library cublas64_12.dll is not found or cannot be loaded" — fix via CUDA 12 wheels in the venv (GPU) or forcing CPU | 🟢 Open |
 | [#102398](https://github.com/NousResearch/hermes-agent/issues/102398) | Issue | Author | [Feature]: Desktop Settings — a visible, per-profile approvals.mode selector | 🔴 Closed |
 | [#98436](https://github.com/NousResearch/hermes-agent/issues/98436) | Issue | Author | [Bug][Windows] hermes update hand-off child silently loses its update receipt after the catch-up module purge — console end state also looks hung | 🔴 Closed |
+| [#90114](https://github.com/NousResearch/hermes-agent/pull/90114) | PR | Participant | feat(desktop): add project archive/restore to the sidebar | 🟢 Open |
+| [#89662](https://github.com/NousResearch/hermes-agent/issues/89662) | Issue | Participant | [Feature]: Desktop — expose project archive/restore in the sidebar (CLI capability exists but no UI affordance) | 🟢 Open |
 | [#86272](https://github.com/NousResearch/hermes-agent/pull/86272) | PR | Author | [codex] fix desktop profile project gateway routing | 🔴 Closed |
-| [#86107](https://github.com/NousResearch/hermes-agent/issues/86107) | Issue | Author | [Bug]: Desktop — single explicit project entry vanishes from sidebar Projects list mid-session; survives restart (backend intact) | 🟢 Open |
+| [#86107](https://github.com/NousResearch/hermes-agent/issues/86107) | Issue | Author | [Bug]: Desktop — single explicit project entry vanishes from sidebar Projects list mid-session; survives restart (backend intact) | 🔴 Closed |
 | [#83192](https://github.com/NousResearch/hermes-agent/issues/83192) | Issue | Author | Bug: find-in-page bar (Ctrl+F) overlaps native window controls on Windows — verified, covered by #80244 | 🔴 Closed |
 | [#82689](https://github.com/NousResearch/hermes-agent/issues/82689) | Issue | Author | kanban: no operator audit on assign + dispatcher executes side-effectful tasks without authorization gate | 🟢 Open |
-| [#82635](https://github.com/NousResearch/hermes-agent/issues/82635) | Issue | Author | [Bug]: Desktop Settings → Chat timezone dropdown truncates long IANA option names — popover width pinned to trigger | 🟢 Open |
+| [#82635](https://github.com/NousResearch/hermes-agent/issues/82635) | Issue | Author | [Bug]: Desktop Settings → Chat timezone dropdown truncates long IANA option names — popover width pinned to trigger | 🔴 Closed |
 | [#82581](https://github.com/NousResearch/hermes-agent/pull/82581) | PR | Participant | fix(tools): isolate subprocess Python environments (#74817) | 🔴 Closed |
 | [#82505](https://github.com/NousResearch/hermes-agent/pull/82505) | PR | Author | fix(desktop): deterministic title for untitled chat sessions | 🟢 Open |
 | [#80542](https://github.com/NousResearch/hermes-agent/issues/80542) | Issue | Author | [Feature]: Desktop — untitled sessions are unidentifiable (86% of sessions have NULL title; no meaningful fallback label) | 🟢 Open |
@@ -85,7 +93,7 @@ I file bugs with reproduction evidence, verify fixes on real Windows environment
 | [#77394](https://github.com/NousResearch/hermes-agent/issues/77394) | Issue | Participant | Windows: hermes update still fails on main — paused gateway keeps _rust.pyd locked (fix #73684 does not cover respawned gateways) | 🟢 Open |
 | [#77156](https://github.com/NousResearch/hermes-agent/pull/77156) | PR | Participant | feat(temperature): add per-session and global sampling temperature control | 🔴 Closed |
 | [#76886](https://github.com/NousResearch/hermes-agent/issues/76886) | Issue | Participant | read_file reports valid UTF-8 text as binary when the 1000-byte sample cuts a multibyte character (regression in 0.19.1) | 🔴 Closed |
-| [#75334](https://github.com/NousResearch/hermes-agent/issues/75334) | Issue | Participant | Bug: Desktop self-update always aborts when a non-Desktop-owned gateway process holds the venv lock (Windows) | 🟢 Open |
+| [#75334](https://github.com/NousResearch/hermes-agent/issues/75334) | Issue | Participant | Bug: Desktop self-update always aborts when a non-Desktop-owned gateway process holds the venv lock (Windows) | 🔴 Closed |
 | [#74817](https://github.com/NousResearch/hermes-agent/issues/74817) | Issue | Participant | PYTHONPATH leaks into terminal-tool subprocesses on macOS/Linux, can crash unrelated third-party apps | 🔴 Closed |
 | [#74443](https://github.com/NousResearch/hermes-agent/pull/74443) | PR | Participant | feat: honor model temperature configuration | 🟢 Open |
 | [#67463](https://github.com/NousResearch/hermes-agent/pull/67463) | PR | Participant | fix(desktop): split sidebar into independent Projects + Sessions collapsible sections (#67368) | 🟢 Open |
