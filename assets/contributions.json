@@ -1,0 +1,1478 @@
+[
+  {
+    "number": 129993,
+    "title": "[Bug]: Desktop: assistant reply is rendered twice in the transcript (duplicate bubble), while the persisted transcript has a single row",
+    "state": "OPEN",
+    "createdAt": "2026-10-01T04:46:47Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/129993",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 128170,
+    "title": "[Bug]: Update dialog's Update now / Maybe later buttons are undiscoverable at UI Scale >=125% - the body scrolls, but the scrollbar is invisible and the footer is not sticky",
+    "state": "OPEN",
+    "createdAt": "2026-09-29T16:47:43Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/128170",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 127349,
+    "title": "[Bug]: minimize-to-tray — restoring from the taskbar's pinned icon gives a painted-but-dead window (still reproducible after #119252)",
+    "state": "OPEN",
+    "createdAt": "2026-09-29T04:12:02Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/127349",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 96,
+    "title": "Add hermes-desktop-toolkit + hermes-upgrade-guide (vollegrewar)",
+    "state": "OPEN",
+    "createdAt": "2026-09-25T16:58:30Z",
+    "url": "https://github.com/ZeroPointRepo/awesome-hermes-skills/pull/96",
+    "repository": {
+      "nameWithOwner": "ZeroPointRepo/awesome-hermes-skills",
+      "isPrivate": false,
+      "owner": {
+        "login": "ZeroPointRepo"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 7,
+    "title": "[Skill] hermes-desktop-toolkit",
+    "state": "OPEN",
+    "createdAt": "2026-09-25T16:56:36Z",
+    "url": "https://github.com/codesstar/hermes-skill-atlas/issues/7",
+    "repository": {
+      "nameWithOwner": "codesstar/hermes-skill-atlas",
+      "isPrivate": false,
+      "owner": {
+        "login": "codesstar"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 6,
+    "title": "[Skill] hermes-upgrade-guide",
+    "state": "OPEN",
+    "createdAt": "2026-09-25T16:56:34Z",
+    "url": "https://github.com/codesstar/hermes-skill-atlas/issues/6",
+    "repository": {
+      "nameWithOwner": "codesstar/hermes-skill-atlas",
+      "isPrivate": false,
+      "owner": {
+        "login": "codesstar"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 122800,
+    "title": "[Bug]: `pm/workspace.py` writes `pyproject.toml` without transient-lock retry — one blocked write discards the whole dependency sync and leaves a permanent `source-completion-pending` marker (Windows)",
+    "state": "OPEN",
+    "createdAt": "2026-09-25T16:01:43Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/122800",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 122206,
+    "title": "fix(desktop): recover when the backend becomes ready after an interrupted update exceeds startup wait",
+    "state": "CLOSED",
+    "createdAt": "2026-09-25T03:29:30Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/122206",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 120005,
+    "title": "Desktop: chats on a non-default profile stream garbled text and show duplicate bubbles (two sockets to one backend)",
+    "state": "CLOSED",
+    "createdAt": "2026-09-23T07:58:43Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/120005",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 118901,
+    "title": "[Bug]: Composer timer continues ticking after task completion",
+    "state": "OPEN",
+    "createdAt": "2026-09-22T07:36:11Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/118901",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 118497,
+    "title": "[Desktop] Link-card title is mojibake for non-UTF-8 pages (Big5/GBK/Shift-JIS) — faviconIo.fetchText uses Response.text(), which always decodes as UTF-8",
+    "state": "CLOSED",
+    "createdAt": "2026-09-21T20:20:54Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/118497",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 4,
+    "title": "chore: add MIT LICENSE file",
+    "state": "MERGED",
+    "createdAt": "2026-09-19T09:35:54Z",
+    "url": "https://github.com/helsonxiao/get-a-job/pull/4",
+    "repository": {
+      "nameWithOwner": "helsonxiao/get-a-job",
+      "isPrivate": false,
+      "owner": {
+        "login": "helsonxiao"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 3,
+    "title": "建议补一个 LICENSE 文件（README 写了 MIT，根目录却没有）",
+    "state": "CLOSED",
+    "createdAt": "2026-09-19T08:08:23Z",
+    "url": "https://github.com/helsonxiao/get-a-job/issues/3",
+    "repository": {
+      "nameWithOwner": "helsonxiao/get-a-job",
+      "isPrivate": false,
+      "owner": {
+        "login": "helsonxiao"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 115027,
+    "title": "fix(desktop): answer batch clarify on request socket",
+    "state": "OPEN",
+    "createdAt": "2026-09-18T10:45:21Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/115027",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 114119,
+    "title": "fix(tui_gateway): flag failed tool calls on the tool.complete frame",
+    "state": "OPEN",
+    "createdAt": "2026-09-17T11:58:44Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/114119",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 113977,
+    "title": "[Bug]: Windows 'hermes gateway start' installs login auto-start on non-interactive stdin - all three prompts default to Yes",
+    "state": "CLOSED",
+    "createdAt": "2026-09-17T08:13:11Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/113977",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 1600,
+    "title": "[Bug]: 插件管理器子进程输出仍按 UTF-8 硬解 —— Windows 中文控制台（CP936）下安装/更新的失败报错整段乱码",
+    "state": "CLOSED",
+    "createdAt": "2026-09-16T12:08:28Z",
+    "url": "https://github.com/zhu1090093659/dsh-web/issues/1600",
+    "repository": {
+      "nameWithOwner": "zhu1090093659/dsh-web",
+      "isPrivate": false,
+      "owner": {
+        "login": "zhu1090093659"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 1598,
+    "title": "[Bug]: 插件管理器子进程输出仍按 UTF-8 硬解 —— Windows 中文控制台（CP936）下安装/更新的失败报错整段乱码",
+    "state": "CLOSED",
+    "createdAt": "2026-09-16T11:51:01Z",
+    "url": "https://github.com/zhu1090093659/dsh-web/issues/1598",
+    "repository": {
+      "nameWithOwner": "zhu1090093659/dsh-web",
+      "isPrivate": false,
+      "owner": {
+        "login": "zhu1090093659"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 4,
+    "title": "对齐 dsh 0.1.5 标准模式：恢复运行时上下文、补回工作目录与 4 行工具同步（v0.1.1）",
+    "state": "OPEN",
+    "createdAt": "2026-09-16T04:03:13Z",
+    "url": "https://github.com/xiaoxianyu-office/dsh-router-flash/pull/4",
+    "repository": {
+      "nameWithOwner": "xiaoxianyu-office/dsh-router-flash",
+      "isPrivate": false,
+      "owner": {
+        "login": "xiaoxianyu-office"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 112158,
+    "title": "catalog: add anysearch (community web search/extract plugin)",
+    "state": "MERGED",
+    "createdAt": "2026-09-15T18:45:32Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/112158",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 110721,
+    "title": "feat(pets): derive sprite cell size from the atlas grid",
+    "state": "OPEN",
+    "createdAt": "2026-09-14T08:54:14Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/110721",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 1555,
+    "title": "[Proposal] dsh-desktop-launcher 生成物治理与启动链路修复：生成物版本戳 + 过期检测/一键重建，launcher 探测 401 误判与端口门控修复，核心 CLI 端口占用快速失败",
+    "state": "CLOSED",
+    "createdAt": "2026-09-14T08:07:55Z",
+    "url": "https://github.com/zhu1090093659/dsh-web/issues/1555",
+    "repository": {
+      "nameWithOwner": "zhu1090093659/dsh-web",
+      "isPrivate": false,
+      "owner": {
+        "login": "zhu1090093659"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 1543,
+    "title": "[Proposal] dsh-desktop-launcher 生成物治理与启动链路修复：生成物版本戳 + 过期检测/一键重建，launcher 探测 401 误判与端口门控修复，核心 CLI 端口占用快速失败",
+    "state": "CLOSED",
+    "createdAt": "2026-09-13T18:25:41Z",
+    "url": "https://github.com/zhu1090093659/dsh-web/issues/1543",
+    "repository": {
+      "nameWithOwner": "zhu1090093659/dsh-web",
+      "isPrivate": false,
+      "owner": {
+        "login": "zhu1090093659"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 109680,
+    "title": "[Bug]: stale gateway_state.json + PID reuse fabricates a phantom gateway runtime in the pre-update inventory — update exits 1 (partial) with \"no rows\" + \"never touched\" warnings",
+    "state": "CLOSED",
+    "createdAt": "2026-09-13T06:23:02Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/109680",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 108630,
+    "title": "[Bug] Auto-archive leaves the canonical \"Bot Chat\" with no recoverable end_reason — permanent title deadlock not covered by #92687 / #92473",
+    "state": "CLOSED",
+    "createdAt": "2026-09-11T22:11:54Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/108630",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 3,
+    "title": "fix: 适配 dsh 0.1.5（persona prefix/suffix + session.snapshotEvents()）",
+    "state": "OPEN",
+    "createdAt": "2026-09-11T07:48:52Z",
+    "url": "https://github.com/xiaoxianyu-office/dsh-router-flash/pull/3",
+    "repository": {
+      "nameWithOwner": "xiaoxianyu-office/dsh-router-flash",
+      "isPrivate": false,
+      "owner": {
+        "login": "xiaoxianyu-office"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 107823,
+    "title": "fix(desktop): restore minimized sessions from sidebar toggle",
+    "state": "CLOSED",
+    "createdAt": "2026-09-11T01:30:16Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/107823",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 107641,
+    "title": "fix(desktop): re-resolve session owners instead of surfacing ownerless runtime ids",
+    "state": "OPEN",
+    "createdAt": "2026-09-10T19:16:46Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/107641",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 2,
+    "title": "feat: 简历内容质量方法论 + OpenAI 兼容 API 打分驱动 + 3 项修复",
+    "state": "MERGED",
+    "createdAt": "2026-09-09T08:57:39Z",
+    "url": "https://github.com/helsonxiao/get-a-job/pull/2",
+    "repository": {
+      "nameWithOwner": "helsonxiao/get-a-job",
+      "isPrivate": false,
+      "owner": {
+        "login": "helsonxiao"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 103793,
+    "title": "[Bug][Windows] Local STT fails: \"Library cublas64_12.dll is not found or cannot be loaded\" — fix via CUDA 12 wheels in the venv (GPU) or forcing CPU",
+    "state": "CLOSED",
+    "createdAt": "2026-09-05T17:25:32Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/103793",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 102398,
+    "title": "[Feature]: Desktop Settings — a visible, per-profile approvals.mode selector",
+    "state": "CLOSED",
+    "createdAt": "2026-09-03T18:15:12Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/102398",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 67,
+    "title": "dsh web fails to boot on core 0.1.2-rc.1: apiProxy service (dsh-host-apiproxy) removed from core tree, plugin stuck pending",
+    "state": "CLOSED",
+    "createdAt": "2026-09-03T10:43:36Z",
+    "url": "https://github.com/omdsh-dev/dsh-browser/issues/67",
+    "repository": {
+      "nameWithOwner": "omdsh-dev/dsh-browser",
+      "isPrivate": false,
+      "owner": {
+        "login": "omdsh-dev"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 1,
+    "title": "feat: 收起态卡片盒 + 未知工具摘要 + GitHub 字体/14px + 黑底白字主题适配（2.2.6）",
+    "state": "OPEN",
+    "createdAt": "2026-09-01T12:25:17Z",
+    "url": "https://github.com/GeekRicardo/dsh-better-tool-ui/pull/1",
+    "repository": {
+      "nameWithOwner": "GeekRicardo/dsh-better-tool-ui",
+      "isPrivate": false,
+      "owner": {
+        "login": "GeekRicardo"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 2,
+    "title": "设置卡「节点外观」不渲染：host apply 调用不存在的 settings.installSection（dsh-settings 0.1.1-rc.2 仅提供 register）",
+    "state": "OPEN",
+    "createdAt": "2026-09-01T09:31:19Z",
+    "url": "https://github.com/Max-Null/dsh-node-appearance/issues/2",
+    "repository": {
+      "nameWithOwner": "Max-Null/dsh-node-appearance",
+      "isPrivate": false,
+      "owner": {
+        "login": "Max-Null"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 3981,
+    "title": "docs: list dsh-tool-highlight (UI Enhancements, zh/en)",
+    "state": "MERGED",
+    "createdAt": "2026-08-31T12:33:34Z",
+    "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3981",
+    "repository": {
+      "nameWithOwner": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "isPrivate": false,
+      "owner": {
+        "login": "awesome-dsh-plugin"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 1315,
+    "title": "[Bug]: @linxin666/dsh-web-ui-all 0.3.6 在 @deepseek-ai/dsh 0.1.2-alpha.2 下加载失败（alpha.2 移除 dsh-settings 的 settingsNamespace / installSettingsSection）",
+    "state": "CLOSED",
+    "createdAt": "2026-08-31T10:26:51Z",
+    "url": "https://github.com/zhu1090093659/dsh-web/issues/1315",
+    "repository": {
+      "nameWithOwner": "zhu1090093659/dsh-web",
+      "isPrivate": false,
+      "owner": {
+        "login": "zhu1090093659"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 107,
+    "title": "DSH 从 0.1.1-rc.2  更新到了 0.1.2-alpha.1，插件无法使用",
+    "state": "CLOSED",
+    "createdAt": "2026-08-31T01:25:57Z",
+    "url": "https://github.com/NanmiCoder/dsh-agent-teams/issues/107",
+    "repository": {
+      "nameWithOwner": "NanmiCoder/dsh-agent-teams",
+      "isPrivate": false,
+      "owner": {
+        "login": "NanmiCoder"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 98436,
+    "title": "[Bug][Windows] hermes update hand-off child silently loses its update receipt after the catch-up module purge — console end state also looks hung",
+    "state": "CLOSED",
+    "createdAt": "2026-08-30T08:09:57Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/98436",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 95,
+    "title": "【数据修正】dsh-genui 被误分类为 skill：市场「更新」执行 README 的 git+ 命令失败（git+乱码），应归类为 cordis-plugin（npm 源）",
+    "state": "CLOSED",
+    "createdAt": "2026-08-28T06:50:16Z",
+    "url": "https://github.com/2BingLing/dsh-market/issues/95",
+    "repository": {
+      "nameWithOwner": "2BingLing/dsh-market",
+      "isPrivate": false,
+      "owner": {
+        "login": "2BingLing"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 83,
+    "title": "[Bug] 插件市场点「更新」失败：README 的 git+https 安装指令在无 git 环境报错（git+ 后一串乱码），市场更新未走 npm 路径",
+    "state": "CLOSED",
+    "createdAt": "2026-08-28T06:34:19Z",
+    "url": "https://github.com/omdsh-dev/dsh-genui/issues/83",
+    "repository": {
+      "nameWithOwner": "omdsh-dev/dsh-genui",
+      "isPrivate": false,
+      "owner": {
+        "login": "omdsh-dev"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 1159,
+    "title": "[Issue]: Windows desktop launcher inherits user .env via shortcut WorkingDirectory",
+    "state": "CLOSED",
+    "createdAt": "2026-08-25T10:51:54Z",
+    "url": "https://github.com/zhu1090093659/dsh-web/issues/1159",
+    "repository": {
+      "nameWithOwner": "zhu1090093659/dsh-web",
+      "isPrivate": false,
+      "owner": {
+        "login": "zhu1090093659"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 1158,
+    "title": "[Bug]: Windows desktop launcher inherits user .env via shortcut WorkingDirectory",
+    "state": "CLOSED",
+    "createdAt": "2026-08-25T10:49:45Z",
+    "url": "https://github.com/zhu1090093659/dsh-web/issues/1158",
+    "repository": {
+      "nameWithOwner": "zhu1090093659/dsh-web",
+      "isPrivate": false,
+      "owner": {
+        "login": "zhu1090093659"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 48,
+    "title": "Stale install from the pre-rename scope breaks `dsh web` boot when the dependency tree is re-resolved",
+    "state": "CLOSED",
+    "createdAt": "2026-08-24T08:50:58Z",
+    "url": "https://github.com/omdsh-dev/dsh-genui/issues/48",
+    "repository": {
+      "nameWithOwner": "omdsh-dev/dsh-genui",
+      "isPrivate": false,
+      "owner": {
+        "login": "omdsh-dev"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 967,
+    "title": "[Bug]: 更新0.2.9版本失败",
+    "state": "CLOSED",
+    "createdAt": "2026-08-22T10:06:47Z",
+    "url": "https://github.com/zhu1090093659/dsh-web/issues/967",
+    "repository": {
+      "nameWithOwner": "zhu1090093659/dsh-web",
+      "isPrivate": false,
+      "owner": {
+        "login": "zhu1090093659"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 90114,
+    "title": "feat(desktop): add project archive/restore to the sidebar",
+    "state": "OPEN",
+    "createdAt": "2026-08-19T16:05:26Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/90114",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 89662,
+    "title": "[Feature]: Desktop — expose project archive/restore in the sidebar (CLI capability exists but no UI affordance)",
+    "state": "OPEN",
+    "createdAt": "2026-08-19T02:51:17Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/89662",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 201,
+    "title": "[Bug] 与聚合包 @linxin666/dsh-web-ui-all 0.2.0 同时加载时 \"/sidebar/api\" 路由重复注册，插件树加载失败",
+    "state": "CLOSED",
+    "createdAt": "2026-08-18T10:01:11Z",
+    "url": "https://github.com/omdsh-dev/DSH-better-sidebar/issues/201",
+    "repository": {
+      "nameWithOwner": "omdsh-dev/DSH-better-sidebar",
+      "isPrivate": false,
+      "owner": {
+        "login": "omdsh-dev"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 39150,
+    "title": "[Windows] Cannot archive conversations when rollout paths use the \\\\?\\ prefix",
+    "state": "CLOSED",
+    "createdAt": "2026-08-18T06:07:17Z",
+    "url": "https://github.com/openai/codex/issues/39150",
+    "repository": {
+      "nameWithOwner": "openai/codex",
+      "isPrivate": false,
+      "owner": {
+        "login": "openai"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 2,
+    "title": "[Bug] opencode-go + deepseek-v4-flash-0731：思考内容混入正文，需调用工具时回复被截断（几乎任何问题可复现）",
+    "state": "OPEN",
+    "createdAt": "2026-08-18T04:12:10Z",
+    "url": "https://github.com/xiaoxianyu-office/dsh-router-flash/issues/2",
+    "repository": {
+      "nameWithOwner": "xiaoxianyu-office/dsh-router-flash",
+      "isPrivate": false,
+      "owner": {
+        "login": "xiaoxianyu-office"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 86272,
+    "title": "[codex] fix desktop profile project gateway routing",
+    "state": "CLOSED",
+    "createdAt": "2026-08-14T18:42:31Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/86272",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 86107,
+    "title": "[Bug]: Desktop — single explicit project entry vanishes from sidebar Projects list mid-session; survives restart (backend intact)",
+    "state": "CLOSED",
+    "createdAt": "2026-08-14T14:12:00Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/86107",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 42,
+    "title": "Add windows-terminal-hygiene (Windows anti-hang terminal skill)",
+    "state": "MERGED",
+    "createdAt": "2026-08-12T18:41:45Z",
+    "url": "https://github.com/ZeroPointRepo/awesome-hermes-skills/pull/42",
+    "repository": {
+      "nameWithOwner": "ZeroPointRepo/awesome-hermes-skills",
+      "isPrivate": false,
+      "owner": {
+        "login": "ZeroPointRepo"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 5,
+    "title": "[Skill] windows-terminal-hygiene",
+    "state": "OPEN",
+    "createdAt": "2026-08-12T18:41:08Z",
+    "url": "https://github.com/codesstar/hermes-skill-atlas/issues/5",
+    "repository": {
+      "nameWithOwner": "codesstar/hermes-skill-atlas",
+      "isPrivate": false,
+      "owner": {
+        "login": "codesstar"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 83192,
+    "title": "Bug: find-in-page bar (Ctrl+F) overlaps native window controls on Windows — verified, covered by #80244",
+    "state": "CLOSED",
+    "createdAt": "2026-08-10T12:23:24Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/83192",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 82689,
+    "title": "kanban: no operator audit on assign + dispatcher executes side-effectful tasks without authorization gate",
+    "state": "OPEN",
+    "createdAt": "2026-08-09T19:57:45Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/82689",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 82635,
+    "title": "[Bug]: Desktop Settings → Chat timezone dropdown truncates long IANA option names — popover width pinned to trigger",
+    "state": "CLOSED",
+    "createdAt": "2026-08-09T18:02:42Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/82635",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 82581,
+    "title": "fix(tools): isolate subprocess Python environments (#74817)",
+    "state": "CLOSED",
+    "createdAt": "2026-08-09T16:03:32Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/82581",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 82505,
+    "title": "fix(desktop): deterministic title for untitled chat sessions",
+    "state": "OPEN",
+    "createdAt": "2026-08-09T13:44:53Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/82505",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 4648,
+    "title": "Fix metadata fetch on endpoints that return absolute redirects",
+    "state": "CLOSED",
+    "createdAt": "2026-08-09T12:46:12Z",
+    "url": "https://github.com/huggingface/huggingface_hub/pull/4648",
+    "repository": {
+      "nameWithOwner": "huggingface/huggingface_hub",
+      "isPrivate": false,
+      "owner": {
+        "login": "huggingface"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 4644,
+    "title": "Preserve query string when following relative redirects",
+    "state": "CLOSED",
+    "createdAt": "2026-08-07T13:51:32Z",
+    "url": "https://github.com/huggingface/huggingface_hub/pull/4644",
+    "repository": {
+      "nameWithOwner": "huggingface/huggingface_hub",
+      "isPrivate": false,
+      "owner": {
+        "login": "huggingface"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Participant",
+      "Reviewer"
+    ]
+  },
+  {
+    "number": 80542,
+    "title": "[Feature]: Desktop — untitled sessions are unidentifiable (86% of sessions have NULL title; no meaningful fallback label)",
+    "state": "OPEN",
+    "createdAt": "2026-08-06T19:10:05Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/80542",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 80498,
+    "title": "Tool-call arguments silently replaced with empty object when stream dies mid-call — silent data loss, no retry (write_file never executed)",
+    "state": "CLOSED",
+    "createdAt": "2026-08-06T17:32:16Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/80498",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 80244,
+    "title": "fix(desktop): keep the find bar clear of the window controls",
+    "state": "CLOSED",
+    "createdAt": "2026-08-06T10:15:23Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/80244",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 80204,
+    "title": "[Bug]: Hermes Desktop leaves orphaned `hermes serve`, MCP watchdog, and daemon Python processes after exit/update",
+    "state": "CLOSED",
+    "createdAt": "2026-08-06T09:09:10Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/80204",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 80122,
+    "title": "fix(agent): handle auxiliary stream stalls and prevent turn ghosting ",
+    "state": "CLOSED",
+    "createdAt": "2026-08-06T06:52:10Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/80122",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Participant",
+      "Reviewer"
+    ]
+  },
+  {
+    "number": 4637,
+    "title": "snapshot_download fails with misleading LocalEntryNotFoundError when HF_ENDPOINT mirror 308-redirects to the Hub (x-repo-commit missing); relative-redirect follower drops query string",
+    "state": "CLOSED",
+    "createdAt": "2026-08-05T12:06:51Z",
+    "url": "https://github.com/huggingface/huggingface_hub/issues/4637",
+    "repository": {
+      "nameWithOwner": "huggingface/huggingface_hub",
+      "isPrivate": false,
+      "owner": {
+        "login": "huggingface"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 78981,
+    "title": "Session permanently dies after repeated context-compression hangs (DeepSeek 500k-token session): stalled stream waits 600s ceiling, interrupted turn never recovers, later messages never start a turn",
+    "state": "CLOSED",
+    "createdAt": "2026-08-05T00:36:31Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/78981",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 77394,
+    "title": "Windows: hermes update still fails on main — paused gateway keeps _rust.pyd locked (fix #73684 does not cover respawned gateways)",
+    "state": "OPEN",
+    "createdAt": "2026-08-03T06:09:59Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/77394",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 77156,
+    "title": "feat(temperature): add per-session and global sampling temperature control",
+    "state": "CLOSED",
+    "createdAt": "2026-08-02T23:38:29Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/77156",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 76886,
+    "title": "read_file reports valid UTF-8 text as binary when the 1000-byte sample cuts a multibyte character (regression in 0.19.1)",
+    "state": "CLOSED",
+    "createdAt": "2026-08-02T15:47:49Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/76886",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 75334,
+    "title": "Bug: Desktop self-update always aborts when a non-Desktop-owned gateway process holds the venv lock (Windows)",
+    "state": "CLOSED",
+    "createdAt": "2026-07-31T09:00:42Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/75334",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 74817,
+    "title": "PYTHONPATH leaks into terminal-tool subprocesses on macOS/Linux, can crash unrelated third-party apps",
+    "state": "CLOSED",
+    "createdAt": "2026-07-30T12:31:21Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/74817",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 74443,
+    "title": "feat: honor model temperature configuration",
+    "state": "OPEN",
+    "createdAt": "2026-07-29T23:14:22Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/74443",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 67463,
+    "title": "fix(desktop): split sidebar into independent Projects + Sessions collapsible sections (#67368)",
+    "state": "CLOSED",
+    "createdAt": "2026-07-19T11:29:05Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/67463",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 59041,
+    "title": "fix: prevent credential pool poisoning from model-not-found 401s and api_mode persistence",
+    "state": "CLOSED",
+    "createdAt": "2026-07-05T18:29:13Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/59041",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 51893,
+    "title": "fix(desktop): handle notification action indexes",
+    "state": "CLOSED",
+    "createdAt": "2026-06-24T13:20:42Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/51893",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 51444,
+    "title": "[Bug]: Approval from notification doesn't work",
+    "state": "CLOSED",
+    "createdAt": "2026-06-23T16:42:45Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/51444",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 46169,
+    "title": "Desktop should support Ctrl+F/Cmd+F find across chat and UI editors",
+    "state": "CLOSED",
+    "createdAt": "2026-06-14T14:17:47Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/46169",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 41165,
+    "title": "[Feature] Add AnySearch as a built-in web search provider (search + extract)",
+    "state": "CLOSED",
+    "createdAt": "2026-06-07T10:24:13Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/41165",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 29457,
+    "title": "[Feature]: Kanban task request for approval",
+    "state": "OPEN",
+    "createdAt": "2026-05-20T20:23:24Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/29457",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
+    "number": 19023,
+    "title": ".local/bin/env created by installer may conflict with /usr/bin/env",
+    "state": "OPEN",
+    "createdAt": "2026-04-16T14:48:36Z",
+    "url": "https://github.com/astral-sh/uv/issues/19023",
+    "repository": {
+      "nameWithOwner": "astral-sh/uv",
+      "isPrivate": false,
+      "owner": {
+        "login": "astral-sh"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  }
+]

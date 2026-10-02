@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-contribution-refresh
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -19,15 +23,17 @@ jobs:
       - name: Run contribution updater
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/update_contribs.py
+        run: |
+          python -m unittest discover -s tests -v
+          python scripts/update_contribs.py
       - name: Commit changes
         run: |
-          git config user.name "vollegrewar[bot]"
-          git config user.email "vollegrewar@users.noreply.github.com"
-          git add README.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/contributions.svg assets/contributions.json
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "chore: refresh Hermes contribution stats"
+            git commit -m "chore: refresh public upstream contribution snapshot"
             git push
           fi

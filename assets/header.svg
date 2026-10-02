@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+<title id="title">vollegrewar — Build with AI. Verify in reality.</title>
+<desc id="desc">AI orchestration, Windows reliability and quality assurance. A dark green engineering notebook with a specification, build, verify, ship loop.</desc>
+<defs><pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#a7d7cb" stroke-opacity=".065"/></pattern></defs>
+<rect width="1200" height="390" rx="16" fill="#14221f"/><rect width="1200" height="390" rx="16" fill="url(#grid)"/>
+<path d="M44 40H1156" stroke="#51675e"/><circle cx="48" cy="40" r="4" fill="#e0b777"/>
+<g font-family="Consolas, monospace" font-size="12" letter-spacing="2" fill="#a7d7cb"><text x="64" y="44">VOLLEGREWAR / FIELD NOTES</text><text x="1002" y="44">BUILD LOG_01</text></g>
+<g font-family="Georgia, serif" fill="#edf0ea"><text x="48" y="125" font-size="58">Build with AI.</text><text x="48" y="191" font-size="58">Verify in reality.</text></g>
+<text x="50" y="233" font-family="Consolas, monospace" font-size="15" fill="#aabdb4">AI orchestration · Windows reliability · QA</text>
+<g transform="translate(822 89)" font-family="Consolas, monospace" font-size="15">
+<rect width="330" height="162" rx="8" fill="#1d3029" stroke="#51675e"/>
+<text x="20" y="32" fill="#e0b777">$ ship --with-evidence</text>
+<text x="20" y="64" fill="#a7d7cb">[01] define the problem</text><text x="20" y="90" fill="#a7d7cb">[02] orchestrate agents</text><text x="20" y="116" fill="#a7d7cb">[03] reproduce &amp; verify</text><text x="20" y="142" fill="#edf0ea">[04] own what ships _</text></g>
+<path d="M48 280H1152" stroke="#51675e"/>
+<g font-family="Consolas, monospace" font-size="15" letter-spacing="2"><text x="50" y="326" fill="#e0b777">SPEC</text><text x="305" y="326" fill="#edf0ea">BUILD</text><text x="577" y="326" fill="#a7d7cb">VERIFY</text><text x="905" y="326" fill="#edf0ea">SHIP</text></g>
+<g stroke="#667e71" fill="none"><path d="M140 320H266m-10-5 10 5-10 5M396 320H538m-10-5 10 5-10 5M688 320H866m-10-5 10 5-10 5"/></g>
+<text x="50" y="365" font-family="Consolas, monospace" font-size="11" letter-spacing="1" fill="#819d8e">REAL REPRODUCTIONS / EXPLICIT ACCEPTANCE / PUBLIC EVIDENCE</text>
+</svg>
