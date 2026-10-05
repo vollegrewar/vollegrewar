@@ -42,7 +42,7 @@ Reports, patches, reviews, and verification have different roles. These are sele
 | **[Hermes · failed tool calls #114119](https://github.com/NousResearch/hermes-agent/pull/114119)** | Authored a patch to flag failed calls in the tool-complete frame. | <!-- STATUS https://github.com/NousResearch/hermes-agent/pull/114119 -->🟢 Open<!-- /STATUS --> |
 | **[Hermes · update dialog at 125% scale #128170](https://github.com/NousResearch/hermes-agent/issues/128170)** | Reported inaccessible update controls, an invisible scrollbar, and a non-sticky footer. | <!-- STATUS https://github.com/NousResearch/hermes-agent/issues/128170 -->🟢 Open<!-- /STATUS --> |
 | **[Hermes · desktop & upgrade skills #96](https://github.com/ZeroPointRepo/awesome-hermes-skills/pull/96)** | Submitted two troubleshooting / upgrade resources to the community directory. | <!-- STATUS https://github.com/ZeroPointRepo/awesome-hermes-skills/pull/96 -->🟢 Open<!-- /STATUS --> |
-| **[DSH · settings API mismatch #2](https://github.com/Max-Null/dsh-node-appearance/issues/2)** | Traced the missing settings card to an unavailable `installSection` API. | <!-- STATUS https://github.com/Max-Null/dsh-node-appearance/issues/2 -->🟢 Open<!-- /STATUS --> |
+| **[DSH · settings API mismatch #2](https://github.com/Max-Null/dsh-node-appearance/issues/2)** | Traced the missing settings card to an unavailable `installSection` API. | <!-- STATUS https://github.com/Max-Null/dsh-node-appearance/issues/2 -->⚪ Closed<!-- /STATUS --> |
 
 ## Working toolkit
 
@@ -71,7 +71,7 @@ Reports, patches, reviews, and verification have different roles. These are sele
 ![Authored issues: 31](https://img.shields.io/badge/Authored_issues-31-a7d7cb?style=flat-square)
 ![Authored PRs: 14](https://img.shields.io/badge/Authored_PRs-14-b6c7ed?style=flat-square)
 ![Merged PRs: 5](https://img.shields.io/badge/Merged_PRs-5-e0b777?style=flat-square)
-![Tracked threads: 81](https://img.shields.io/badge/Tracked_threads-81-b8c4cd?style=flat-square)
+![Tracked threads: 82](https://img.shields.io/badge/Tracked_threads-82-b8c4cd?style=flat-square)
 <!-- /CONTRIB_BADGES -->
 
 **Scope:** public upstream repositories only; my own repositories and private work are excluded. Counts use unique issues / PRs. “Author” means I opened the item; “Participant” means I commented; “Reviewer” means a PR review. A closed issue does not by itself establish that the bug was fixed. These totals differ from GitHub's calendar contribution count.
@@ -84,7 +84,7 @@ Reports, patches, reviews, and verification have different roles. These are sele
 |---|---|---|---|
 | [NousResearch/hermes-agent #129993](https://github.com/NousResearch/hermes-agent/issues/129993) · Issue | Participant | \[Bug\]: Desktop: assistant reply is rendered twice in the transcript (duplicate bubble), while the persisted transcript has a single row | 🟢 Open |
 | [NousResearch/hermes-agent #128170](https://github.com/NousResearch/hermes-agent/issues/128170) · Issue | Author | \[Bug\]: Update dialog&#x27;s Update now / Maybe later buttons are undiscoverable at UI Scale &gt;=125% - the body scrolls, but the scrollbar is invisible and the footer is not sticky | 🟢 Open |
-| [NousResearch/hermes-agent #127349](https://github.com/NousResearch/hermes-agent/issues/127349) · Issue | Participant | \[Bug\]: minimize-to-tray — restoring from the taskbar&#x27;s pinned icon gives a painted-but-dead window (still reproducible after #119252) | 🟢 Open |
+| [NousResearch/hermes-agent #127349](https://github.com/NousResearch/hermes-agent/issues/127349) · Issue | Participant | \[Bug\]: minimize-to-tray — restoring from the taskbar&#x27;s pinned icon gives a painted-but-dead window (still reproducible after #119252) | ⚪ Closed |
 | [NousResearch/hermes-agent #122800](https://github.com/NousResearch/hermes-agent/issues/122800) · Issue | Author | \[Bug\]: \`pm/workspace.py\` writes \`pyproject.toml\` without transient-lock retry — one blocked write discards the whole dependency sync and leaves a permanent \`source-completion-pending\` marker (Windows) | 🟢 Open |
 | [NousResearch/hermes-agent #122206](https://github.com/NousResearch/hermes-agent/issues/122206) · Issue | Participant | fix(desktop): recover when the backend becomes ready after an interrupted update exceeds startup wait | ⚪ Closed |
 | [NousResearch/hermes-agent #120005](https://github.com/NousResearch/hermes-agent/issues/120005) · Issue | Participant | Desktop: chats on a non-default profile stream garbled text and show duplicate bubbles (two sockets to one backend) | ⚪ Closed |
@@ -111,6 +111,7 @@ Reports, patches, reviews, and verification have different roles. These are sele
 | [NousResearch/hermes-agent #82635](https://github.com/NousResearch/hermes-agent/issues/82635) · Issue | Author | \[Bug\]: Desktop Settings → Chat timezone dropdown truncates long IANA option names — popover width pinned to trigger | ⚪ Closed |
 | [NousResearch/hermes-agent #82581](https://github.com/NousResearch/hermes-agent/pull/82581) · PR | Participant | fix(tools): isolate subprocess Python environments (#74817) | ⚪ Closed |
 | [NousResearch/hermes-agent #82505](https://github.com/NousResearch/hermes-agent/pull/82505) · PR | Author | fix(desktop): deterministic title for untitled chat sessions | 🟢 Open |
+| [NousResearch/hermes-agent #82202](https://github.com/NousResearch/hermes-agent/pull/82202) · PR | Participant | feat(web): native Exa advanced search + agent tools (no MCP) | 🟢 Open |
 | [NousResearch/hermes-agent #80542](https://github.com/NousResearch/hermes-agent/issues/80542) · Issue | Author | \[Feature\]: Desktop — untitled sessions are unidentifiable (86% of sessions have NULL title; no meaningful fallback label) | 🟢 Open |
 | [NousResearch/hermes-agent #80498](https://github.com/NousResearch/hermes-agent/issues/80498) · Issue | Author | Tool-call arguments silently replaced with empty object when stream dies mid-call — silent data loss, no retry (write\_file never executed) | ⚪ Closed |
 | [NousResearch/hermes-agent #80244](https://github.com/NousResearch/hermes-agent/pull/80244) · PR | Participant | fix(desktop): keep the find bar clear of the window controls | ⚪ Closed |
@@ -154,7 +155,7 @@ Reports, patches, reviews, and verification have different roles. These are sele
 | [helsonxiao/get-a-job #2](https://github.com/helsonxiao/get-a-job/pull/2) · PR | Author | feat: 简历内容质量方法论 + OpenAI 兼容 API 打分驱动 + 3 项修复 | 🟣 Merged |
 | [omdsh-dev/dsh-browser #67](https://github.com/omdsh-dev/dsh-browser/issues/67) · Issue | Author | dsh web fails to boot on core 0.1.2-rc.1: apiProxy service (dsh-host-apiproxy) removed from core tree, plugin stuck pending | ⚪ Closed |
 | [GeekRicardo/dsh-better-tool-ui #1](https://github.com/GeekRicardo/dsh-better-tool-ui/pull/1) · PR | Author | feat: 收起态卡片盒 + 未知工具摘要 + GitHub 字体/14px + 黑底白字主题适配（2.2.6） | 🟢 Open |
-| [Max-Null/dsh-node-appearance #2](https://github.com/Max-Null/dsh-node-appearance/issues/2) · Issue | Author | 设置卡「节点外观」不渲染：host apply 调用不存在的 settings.installSection（dsh-settings 0.1.1-rc.2 仅提供 register） | 🟢 Open |
+| [Max-Null/dsh-node-appearance #2](https://github.com/Max-Null/dsh-node-appearance/issues/2) · Issue | Author | 设置卡「节点外观」不渲染：host apply 调用不存在的 settings.installSection（dsh-settings 0.1.1-rc.2 仅提供 register） | ⚪ Closed |
 | [awesome-dsh-plugin/awesome-dsh-plugin #3981](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3981) · PR | Author | docs: list dsh-tool-highlight (UI Enhancements, zh/en) | 🟣 Merged |
 | [zhu1090093659/dsh-web #1315](https://github.com/zhu1090093659/dsh-web/issues/1315) · Issue | Author | \[Bug\]: @linxin666/dsh-web-ui-all 0.3.6 在 @deepseek-ai/dsh 0.1.2-alpha.2 下加载失败（alpha.2 移除 dsh-settings 的 settingsNamespace / installSettingsSection） | ⚪ Closed |
 | [NanmiCoder/dsh-agent-teams #107](https://github.com/NanmiCoder/dsh-agent-teams/issues/107) · Issue | Participant | DSH 从 0.1.1-rc.2 更新到了 0.1.2-alpha.1，插件无法使用 | ⚪ Closed |

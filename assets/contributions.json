@@ -38,7 +38,7 @@
   {
     "number": 127349,
     "title": "[Bug]: minimize-to-tray — restoring from the taskbar's pinned icon gives a painted-but-dead window (still reproducible after #119252)",
-    "state": "OPEN",
+    "state": "CLOSED",
     "createdAt": "2026-09-29T04:12:02Z",
     "url": "https://github.com/NousResearch/hermes-agent/issues/127349",
     "repository": {
@@ -602,7 +602,7 @@
   {
     "number": 2,
     "title": "设置卡「节点外观」不渲染：host apply 调用不存在的 settings.installSection（dsh-settings 0.1.1-rc.2 仅提供 register）",
-    "state": "OPEN",
+    "state": "CLOSED",
     "createdAt": "2026-09-01T09:31:19Z",
     "url": "https://github.com/Max-Null/dsh-node-appearance/issues/2",
     "repository": {
@@ -1071,6 +1071,24 @@
     "kind": "PR",
     "roles": [
       "Author",
+      "Participant"
+    ]
+  },
+  {
+    "number": 82202,
+    "title": "feat(web): native Exa advanced search + agent tools (no MCP)",
+    "state": "OPEN",
+    "createdAt": "2026-08-09T03:19:53Z",
+    "url": "https://github.com/NousResearch/hermes-agent/pull/82202",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "PR",
+    "roles": [
       "Participant"
     ]
   },
