@@ -1,5 +1,24 @@
 [
   {
+    "number": 22,
+    "title": "Found verdicts on non-existent profiles: SPA shells, HTTP 4xx/5xx pages and search/admin templates all pass the Found threshold (v2.5.0)",
+    "state": "OPEN",
+    "createdAt": "2026-10-05T10:06:58Z",
+    "url": "https://github.com/arxhr007/Aliens_eye/issues/22",
+    "repository": {
+      "nameWithOwner": "arxhr007/Aliens_eye",
+      "isPrivate": false,
+      "owner": {
+        "login": "arxhr007"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author",
+      "Participant"
+    ]
+  },
+  {
     "number": 129993,
     "title": "[Bug]: Desktop: assistant reply is rendered twice in the transcript (duplicate bubble), while the persisted transcript has a single row",
     "state": "OPEN",
@@ -164,7 +183,7 @@
   {
     "number": 118901,
     "title": "[Bug]: Composer timer continues ticking after task completion",
-    "state": "OPEN",
+    "state": "CLOSED",
     "createdAt": "2026-09-22T07:36:11Z",
     "url": "https://github.com/NousResearch/hermes-agent/issues/118901",
     "repository": {
@@ -493,7 +512,7 @@
   {
     "number": 107641,
     "title": "fix(desktop): re-resolve session owners instead of surfacing ownerless runtime ids",
-    "state": "OPEN",
+    "state": "CLOSED",
     "createdAt": "2026-09-10T19:16:46Z",
     "url": "https://github.com/NousResearch/hermes-agent/pull/107641",
     "repository": {

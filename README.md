@@ -68,10 +68,10 @@ Reports, patches, reviews, and verification have different roles. These are sele
 </p>
 
 <!-- CONTRIB_BADGES -->
-![Authored issues: 31](https://img.shields.io/badge/Authored_issues-31-a7d7cb?style=flat-square)
+![Authored issues: 32](https://img.shields.io/badge/Authored_issues-32-a7d7cb?style=flat-square)
 ![Authored PRs: 14](https://img.shields.io/badge/Authored_PRs-14-b6c7ed?style=flat-square)
 ![Merged PRs: 5](https://img.shields.io/badge/Merged_PRs-5-e0b777?style=flat-square)
-![Tracked threads: 82](https://img.shields.io/badge/Tracked_threads-82-b8c4cd?style=flat-square)
+![Tracked threads: 83](https://img.shields.io/badge/Tracked_threads-83-b8c4cd?style=flat-square)
 <!-- /CONTRIB_BADGES -->
 
 **Scope:** public upstream repositories only; my own repositories and private work are excluded. Counts use unique issues / PRs. “Author” means I opened the item; “Participant” means I commented; “Reviewer” means a PR review. A closed issue does not by itself establish that the bug was fixed. These totals differ from GitHub's calendar contribution count.
@@ -88,7 +88,7 @@ Reports, patches, reviews, and verification have different roles. These are sele
 | [NousResearch/hermes-agent #122800](https://github.com/NousResearch/hermes-agent/issues/122800) · Issue | Author | \[Bug\]: \`pm/workspace.py\` writes \`pyproject.toml\` without transient-lock retry — one blocked write discards the whole dependency sync and leaves a permanent \`source-completion-pending\` marker (Windows) | 🟢 Open |
 | [NousResearch/hermes-agent #122206](https://github.com/NousResearch/hermes-agent/issues/122206) · Issue | Participant | fix(desktop): recover when the backend becomes ready after an interrupted update exceeds startup wait | ⚪ Closed |
 | [NousResearch/hermes-agent #120005](https://github.com/NousResearch/hermes-agent/issues/120005) · Issue | Participant | Desktop: chats on a non-default profile stream garbled text and show duplicate bubbles (two sockets to one backend) | ⚪ Closed |
-| [NousResearch/hermes-agent #118901](https://github.com/NousResearch/hermes-agent/issues/118901) · Issue | Participant | \[Bug\]: Composer timer continues ticking after task completion | 🟢 Open |
+| [NousResearch/hermes-agent #118901](https://github.com/NousResearch/hermes-agent/issues/118901) · Issue | Participant | \[Bug\]: Composer timer continues ticking after task completion | ⚪ Closed |
 | [NousResearch/hermes-agent #118497](https://github.com/NousResearch/hermes-agent/issues/118497) · Issue | Author | \[Desktop\] Link-card title is mojibake for non-UTF-8 pages (Big5/GBK/Shift-JIS) — faviconIo.fetchText uses Response.text(), which always decodes as UTF-8 | ⚪ Closed |
 | [NousResearch/hermes-agent #115027](https://github.com/NousResearch/hermes-agent/pull/115027) · PR | Participant | fix(desktop): answer batch clarify on request socket | 🟢 Open |
 | [NousResearch/hermes-agent #114119](https://github.com/NousResearch/hermes-agent/pull/114119) · PR | Author | fix(tui\_gateway): flag failed tool calls on the tool.complete frame | 🟢 Open |
@@ -98,7 +98,7 @@ Reports, patches, reviews, and verification have different roles. These are sele
 | [NousResearch/hermes-agent #109680](https://github.com/NousResearch/hermes-agent/issues/109680) · Issue | Author | \[Bug\]: stale gateway\_state.json + PID reuse fabricates a phantom gateway runtime in the pre-update inventory — update exits 1 (partial) with &quot;no rows&quot; + &quot;never touched&quot; warnings | ⚪ Closed |
 | [NousResearch/hermes-agent #108630](https://github.com/NousResearch/hermes-agent/issues/108630) · Issue | Author | \[Bug\] Auto-archive leaves the canonical &quot;Bot Chat&quot; with no recoverable end\_reason — permanent title deadlock not covered by #92687 / #92473 | ⚪ Closed |
 | [NousResearch/hermes-agent #107823](https://github.com/NousResearch/hermes-agent/pull/107823) · PR | Participant | fix(desktop): restore minimized sessions from sidebar toggle | ⚪ Closed |
-| [NousResearch/hermes-agent #107641](https://github.com/NousResearch/hermes-agent/pull/107641) · PR | Participant | fix(desktop): re-resolve session owners instead of surfacing ownerless runtime ids | 🟢 Open |
+| [NousResearch/hermes-agent #107641](https://github.com/NousResearch/hermes-agent/pull/107641) · PR | Participant | fix(desktop): re-resolve session owners instead of surfacing ownerless runtime ids | ⚪ Closed |
 | [NousResearch/hermes-agent #103793](https://github.com/NousResearch/hermes-agent/issues/103793) · Issue | Participant | \[Bug\]\[Windows\] Local STT fails: &quot;Library cublas64\_12.dll is not found or cannot be loaded&quot; — fix via CUDA 12 wheels in the venv (GPU) or forcing CPU | ⚪ Closed |
 | [NousResearch/hermes-agent #102398](https://github.com/NousResearch/hermes-agent/issues/102398) · Issue | Author | \[Feature\]: Desktop Settings — a visible, per-profile approvals.mode selector | ⚪ Closed |
 | [NousResearch/hermes-agent #98436](https://github.com/NousResearch/hermes-agent/issues/98436) · Issue | Author | \[Bug\]\[Windows\] hermes update hand-off child silently loses its update receipt after the catch-up module purge — console end state also looks hung | ⚪ Closed |
@@ -141,6 +141,7 @@ Reports, patches, reviews, and verification have different roles. These are sele
 <!-- CROSS_CONTRIB_TABLE -->
 | Contribution | Role | Title | Status |
 |---|---|---|---|
+| [arxhr007/Aliens_eye #22](https://github.com/arxhr007/Aliens_eye/issues/22) · Issue | Author | Found verdicts on non-existent profiles: SPA shells, HTTP 4xx/5xx pages and search/admin templates all pass the Found threshold (v2.5.0) | 🟢 Open |
 | [ZeroPointRepo/awesome-hermes-skills #96](https://github.com/ZeroPointRepo/awesome-hermes-skills/pull/96) · PR | Author | Add hermes-desktop-toolkit + hermes-upgrade-guide (vollegrewar) | 🟢 Open |
 | [codesstar/hermes-skill-atlas #7](https://github.com/codesstar/hermes-skill-atlas/issues/7) · Issue | Author | \[Skill\] hermes-desktop-toolkit | 🟢 Open |
 | [codesstar/hermes-skill-atlas #6](https://github.com/codesstar/hermes-skill-atlas/issues/6) · Issue | Author | \[Skill\] hermes-upgrade-guide | 🟢 Open |
