@@ -68,10 +68,10 @@ Reports, patches, reviews, and verification have different roles. These are sele
 </p>
 
 <!-- CONTRIB_BADGES -->
-![Authored issues: 32](https://img.shields.io/badge/Authored_issues-32-a7d7cb?style=flat-square)
+![Authored issues: 33](https://img.shields.io/badge/Authored_issues-33-a7d7cb?style=flat-square)
 ![Authored PRs: 14](https://img.shields.io/badge/Authored_PRs-14-b6c7ed?style=flat-square)
 ![Merged PRs: 5](https://img.shields.io/badge/Merged_PRs-5-e0b777?style=flat-square)
-![Tracked threads: 83](https://img.shields.io/badge/Tracked_threads-83-b8c4cd?style=flat-square)
+![Tracked threads: 85](https://img.shields.io/badge/Tracked_threads-85-b8c4cd?style=flat-square)
 <!-- /CONTRIB_BADGES -->
 
 **Scope:** public upstream repositories only; my own repositories and private work are excluded. Counts use unique issues / PRs. “Author” means I opened the item; “Participant” means I commented; “Reviewer” means a PR review. A closed issue does not by itself establish that the bug was fixed. These totals differ from GitHub's calendar contribution count.
@@ -82,6 +82,8 @@ Reports, patches, reviews, and verification have different roles. These are sele
 <!-- CONTRIB_TABLE -->
 | Contribution | Role | Title | Status |
 |---|---|---|---|
+| [NousResearch/hermes-agent #139061](https://github.com/NousResearch/hermes-agent/issues/139061) · Issue | Author | \[Bug\]: Pasting an image fails with invalid\_params in a non-default profile (attachment staged in the default profile&#x27;s cache) | ⚪ Closed |
+| [NousResearch/hermes-agent #138940](https://github.com/NousResearch/hermes-agent/issues/138940) · Issue | Participant | \[Bug\]: Background process completion notifications fail delivery to Discord and spin in infinite retry injection loop | ⚪ Closed |
 | [NousResearch/hermes-agent #129993](https://github.com/NousResearch/hermes-agent/issues/129993) · Issue | Participant | \[Bug\]: Desktop: assistant reply is rendered twice in the transcript (duplicate bubble), while the persisted transcript has a single row | 🟢 Open |
 | [NousResearch/hermes-agent #128170](https://github.com/NousResearch/hermes-agent/issues/128170) · Issue | Author | \[Bug\]: Update dialog&#x27;s Update now / Maybe later buttons are undiscoverable at UI Scale &gt;=125% - the body scrolls, but the scrollbar is invisible and the footer is not sticky | 🟢 Open |
 | [NousResearch/hermes-agent #127349](https://github.com/NousResearch/hermes-agent/issues/127349) · Issue | Participant | \[Bug\]: minimize-to-tray — restoring from the taskbar&#x27;s pinned icon gives a painted-but-dead window (still reproducible after #119252) | ⚪ Closed |
@@ -141,10 +143,10 @@ Reports, patches, reviews, and verification have different roles. These are sele
 <!-- CROSS_CONTRIB_TABLE -->
 | Contribution | Role | Title | Status |
 |---|---|---|---|
-| [arxhr007/Aliens_eye #22](https://github.com/arxhr007/Aliens_eye/issues/22) · Issue | Author | Found verdicts on non-existent profiles: SPA shells, HTTP 4xx/5xx pages and search/admin templates all pass the Found threshold (v2.5.0) | 🟢 Open |
+| [arxhr007/Aliens_eye #22](https://github.com/arxhr007/Aliens_eye/issues/22) · Issue | Author | Found verdicts on non-existent profiles: SPA shells, HTTP 4xx/5xx pages and search/admin templates all pass the Found threshold (v2.5.0) | ⚪ Closed |
 | [ZeroPointRepo/awesome-hermes-skills #96](https://github.com/ZeroPointRepo/awesome-hermes-skills/pull/96) · PR | Author | Add hermes-desktop-toolkit + hermes-upgrade-guide (vollegrewar) | 🟢 Open |
-| [codesstar/hermes-skill-atlas #7](https://github.com/codesstar/hermes-skill-atlas/issues/7) · Issue | Author | \[Skill\] hermes-desktop-toolkit | 🟢 Open |
-| [codesstar/hermes-skill-atlas #6](https://github.com/codesstar/hermes-skill-atlas/issues/6) · Issue | Author | \[Skill\] hermes-upgrade-guide | 🟢 Open |
+| [codesstar/hermes-skill-atlas #7](https://github.com/codesstar/hermes-skill-atlas/issues/7) · Issue | Author | \[Skill\] hermes-desktop-toolkit | ⚪ Closed |
+| [codesstar/hermes-skill-atlas #6](https://github.com/codesstar/hermes-skill-atlas/issues/6) · Issue | Author | \[Skill\] hermes-upgrade-guide | ⚪ Closed |
 | [helsonxiao/get-a-job #4](https://github.com/helsonxiao/get-a-job/pull/4) · PR | Author | chore: add MIT LICENSE file | 🟣 Merged |
 | [helsonxiao/get-a-job #3](https://github.com/helsonxiao/get-a-job/issues/3) · Issue | Author | 建议补一个 LICENSE 文件（README 写了 MIT，根目录却没有） | ⚪ Closed |
 | [zhu1090093659/dsh-web #1600](https://github.com/zhu1090093659/dsh-web/issues/1600) · Issue | Author | \[Bug\]: 插件管理器子进程输出仍按 UTF-8 硬解 —— Windows 中文控制台（CP936）下安装/更新的失败报错整段乱码 | ⚪ Closed |
@@ -152,10 +154,10 @@ Reports, patches, reviews, and verification have different roles. These are sele
 | [xiaoxianyu-office/dsh-router-flash #4](https://github.com/xiaoxianyu-office/dsh-router-flash/pull/4) · PR | Author | 对齐 dsh 0.1.5 标准模式：恢复运行时上下文、补回工作目录与 4 行工具同步（v0.1.1） | 🟢 Open |
 | [zhu1090093659/dsh-web #1555](https://github.com/zhu1090093659/dsh-web/issues/1555) · Issue | Author | \[Proposal\] dsh-desktop-launcher 生成物治理与启动链路修复：生成物版本戳 + 过期检测/一键重建，launcher 探测 401 误判与端口门控修复，核心 CLI 端口占用快速失败 | ⚪ Closed |
 | [zhu1090093659/dsh-web #1543](https://github.com/zhu1090093659/dsh-web/issues/1543) · Issue | Author | \[Proposal\] dsh-desktop-launcher 生成物治理与启动链路修复：生成物版本戳 + 过期检测/一键重建，launcher 探测 401 误判与端口门控修复，核心 CLI 端口占用快速失败 | ⚪ Closed |
-| [xiaoxianyu-office/dsh-router-flash #3](https://github.com/xiaoxianyu-office/dsh-router-flash/pull/3) · PR | Author | fix: 适配 dsh 0.1.5（persona prefix/suffix + session.snapshotEvents()） | 🟢 Open |
+| [xiaoxianyu-office/dsh-router-flash #3](https://github.com/xiaoxianyu-office/dsh-router-flash/pull/3) · PR | Author | fix: 适配 dsh 0.1.5（persona prefix/suffix + session.snapshotEvents()） | ⚪ Closed |
 | [helsonxiao/get-a-job #2](https://github.com/helsonxiao/get-a-job/pull/2) · PR | Author | feat: 简历内容质量方法论 + OpenAI 兼容 API 打分驱动 + 3 项修复 | 🟣 Merged |
 | [omdsh-dev/dsh-browser #67](https://github.com/omdsh-dev/dsh-browser/issues/67) · Issue | Author | dsh web fails to boot on core 0.1.2-rc.1: apiProxy service (dsh-host-apiproxy) removed from core tree, plugin stuck pending | ⚪ Closed |
-| [GeekRicardo/dsh-better-tool-ui #1](https://github.com/GeekRicardo/dsh-better-tool-ui/pull/1) · PR | Author | feat: 收起态卡片盒 + 未知工具摘要 + GitHub 字体/14px + 黑底白字主题适配（2.2.6） | 🟢 Open |
+| [GeekRicardo/dsh-better-tool-ui #1](https://github.com/GeekRicardo/dsh-better-tool-ui/pull/1) · PR | Author | feat: 收起态卡片盒 + 未知工具摘要 + GitHub 字体/14px + 黑底白字主题适配（2.2.6） | ⚪ Closed |
 | [Max-Null/dsh-node-appearance #2](https://github.com/Max-Null/dsh-node-appearance/issues/2) · Issue | Author | 设置卡「节点外观」不渲染：host apply 调用不存在的 settings.installSection（dsh-settings 0.1.1-rc.2 仅提供 register） | ⚪ Closed |
 | [awesome-dsh-plugin/awesome-dsh-plugin #3981](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3981) · PR | Author | docs: list dsh-tool-highlight (UI Enhancements, zh/en) | 🟣 Merged |
 | [zhu1090093659/dsh-web #1315](https://github.com/zhu1090093659/dsh-web/issues/1315) · Issue | Author | \[Bug\]: @linxin666/dsh-web-ui-all 0.3.6 在 @deepseek-ai/dsh 0.1.2-alpha.2 下加载失败（alpha.2 移除 dsh-settings 的 settingsNamespace / installSettingsSection） | ⚪ Closed |
@@ -170,7 +172,7 @@ Reports, patches, reviews, and verification have different roles. These are sele
 | [openai/codex #39150](https://github.com/openai/codex/issues/39150) · Issue | Participant | \[Windows\] Cannot archive conversations when rollout paths use the \\\\?\\ prefix | ⚪ Closed |
 | [xiaoxianyu-office/dsh-router-flash #2](https://github.com/xiaoxianyu-office/dsh-router-flash/issues/2) · Issue | Participant | \[Bug\] opencode-go + deepseek-v4-flash-0731：思考内容混入正文，需调用工具时回复被截断（几乎任何问题可复现） | 🟢 Open |
 | [ZeroPointRepo/awesome-hermes-skills #42](https://github.com/ZeroPointRepo/awesome-hermes-skills/pull/42) · PR | Author | Add windows-terminal-hygiene (Windows anti-hang terminal skill) | 🟣 Merged |
-| [codesstar/hermes-skill-atlas #5](https://github.com/codesstar/hermes-skill-atlas/issues/5) · Issue | Author | \[Skill\] windows-terminal-hygiene | 🟢 Open |
+| [codesstar/hermes-skill-atlas #5](https://github.com/codesstar/hermes-skill-atlas/issues/5) · Issue | Author | \[Skill\] windows-terminal-hygiene | ⚪ Closed |
 | [huggingface/huggingface_hub #4648](https://github.com/huggingface/huggingface_hub/pull/4648) · PR | Author | Fix metadata fetch on endpoints that return absolute redirects | ⚪ Closed |
 | [huggingface/huggingface_hub #4644](https://github.com/huggingface/huggingface_hub/pull/4644) · PR | Reviewer + Participant | Preserve query string when following relative redirects | ⚪ Closed |
 | [huggingface/huggingface_hub #4637](https://github.com/huggingface/huggingface_hub/issues/4637) · Issue | Author | snapshot\_download fails with misleading LocalEntryNotFoundError when HF\_ENDPOINT mirror 308-redirects to the Hub (x-repo-commit missing); relative-redirect follower drops query string | ⚪ Closed |

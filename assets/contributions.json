@@ -1,8 +1,44 @@
 [
   {
+    "number": 139061,
+    "title": "[Bug]: Pasting an image fails with invalid_params in a non-default profile (attachment staged in the default profile's cache)",
+    "state": "CLOSED",
+    "createdAt": "2026-10-15T11:00:55Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/139061",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 138940,
+    "title": "[Bug]: Background process completion notifications fail delivery to Discord and spin in infinite retry injection loop",
+    "state": "CLOSED",
+    "createdAt": "2026-10-15T07:11:00Z",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/138940",
+    "repository": {
+      "nameWithOwner": "NousResearch/hermes-agent",
+      "isPrivate": false,
+      "owner": {
+        "login": "NousResearch"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
     "number": 22,
     "title": "Found verdicts on non-existent profiles: SPA shells, HTTP 4xx/5xx pages and search/admin templates all pass the Found threshold (v2.5.0)",
-    "state": "OPEN",
+    "state": "CLOSED",
     "createdAt": "2026-10-05T10:06:58Z",
     "url": "https://github.com/arxhr007/Aliens_eye/issues/22",
     "repository": {
@@ -93,7 +129,7 @@
   {
     "number": 7,
     "title": "[Skill] hermes-desktop-toolkit",
-    "state": "OPEN",
+    "state": "CLOSED",
     "createdAt": "2026-09-25T16:56:36Z",
     "url": "https://github.com/codesstar/hermes-skill-atlas/issues/7",
     "repository": {
@@ -111,7 +147,7 @@
   {
     "number": 6,
     "title": "[Skill] hermes-upgrade-guide",
-    "state": "OPEN",
+    "state": "CLOSED",
     "createdAt": "2026-09-25T16:56:34Z",
     "url": "https://github.com/codesstar/hermes-skill-atlas/issues/6",
     "repository": {
@@ -476,7 +512,7 @@
   {
     "number": 3,
     "title": "fix: 适配 dsh 0.1.5（persona prefix/suffix + session.snapshotEvents()）",
-    "state": "OPEN",
+    "state": "CLOSED",
     "createdAt": "2026-09-11T07:48:52Z",
     "url": "https://github.com/xiaoxianyu-office/dsh-router-flash/pull/3",
     "repository": {
@@ -488,7 +524,8 @@
     },
     "kind": "PR",
     "roles": [
-      "Author"
+      "Author",
+      "Participant"
     ]
   },
   {
@@ -603,7 +640,7 @@
   {
     "number": 1,
     "title": "feat: 收起态卡片盒 + 未知工具摘要 + GitHub 字体/14px + 黑底白字主题适配（2.2.6）",
-    "state": "OPEN",
+    "state": "CLOSED",
     "createdAt": "2026-09-01T12:25:17Z",
     "url": "https://github.com/GeekRicardo/dsh-better-tool-ui/pull/1",
     "repository": {
@@ -615,7 +652,8 @@
     },
     "kind": "PR",
     "roles": [
-      "Author"
+      "Author",
+      "Participant"
     ]
   },
   {
@@ -966,7 +1004,7 @@
   {
     "number": 5,
     "title": "[Skill] windows-terminal-hygiene",
-    "state": "OPEN",
+    "state": "CLOSED",
     "createdAt": "2026-08-12T18:41:08Z",
     "url": "https://github.com/codesstar/hermes-skill-atlas/issues/5",
     "repository": {
