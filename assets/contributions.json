@@ -1,5 +1,41 @@
 [
   {
+    "number": 1,
+    "title": "[Bug] 关键词抽取混入 assistant 代码块：面板按 JSON 字段名（content/title/type）排序",
+    "state": "OPEN",
+    "createdAt": "2026-10-30T16:54:49Z",
+    "url": "https://github.com/PolinniZhong/dsh-knit/issues/1",
+    "repository": {
+      "nameWithOwner": "PolinniZhong/dsh-knit",
+      "isPrivate": false,
+      "owner": {
+        "login": "PolinniZhong"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Author"
+    ]
+  },
+  {
+    "number": 27,
+    "title": "[Compatibility] MSI RTX 4070 (AD104, 10de:2786) / Gigabyte B760M AORUS ELITE / Intel i5-12400",
+    "state": "OPEN",
+    "createdAt": "2026-10-25T22:50:55Z",
+    "url": "https://github.com/windows-GPU-UNLOCK/Windows-GPU-UNLOCK/issues/27",
+    "repository": {
+      "nameWithOwner": "windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
+      "isPrivate": false,
+      "owner": {
+        "login": "windows-GPU-UNLOCK"
+      }
+    },
+    "kind": "Issue",
+    "roles": [
+      "Participant"
+    ]
+  },
+  {
     "number": 139061,
     "title": "[Bug]: Pasting an image fails with invalid_params in a non-default profile (attachment staged in the default profile's cache)",
     "state": "CLOSED",
@@ -309,7 +345,7 @@
   {
     "number": 114119,
     "title": "fix(tui_gateway): flag failed tool calls on the tool.complete frame",
-    "state": "OPEN",
+    "state": "CLOSED",
     "createdAt": "2026-09-17T11:58:44Z",
     "url": "https://github.com/NousResearch/hermes-agent/pull/114119",
     "repository": {
@@ -321,7 +357,8 @@
     },
     "kind": "PR",
     "roles": [
-      "Author"
+      "Author",
+      "Participant"
     ]
   },
   {
@@ -420,7 +457,7 @@
   {
     "number": 110721,
     "title": "feat(pets): derive sprite cell size from the atlas grid",
-    "state": "OPEN",
+    "state": "CLOSED",
     "createdAt": "2026-09-14T08:54:14Z",
     "url": "https://github.com/NousResearch/hermes-agent/pull/110721",
     "repository": {
@@ -1096,7 +1133,7 @@
   {
     "number": 82505,
     "title": "fix(desktop): deterministic title for untitled chat sessions",
-    "state": "OPEN",
+    "state": "CLOSED",
     "createdAt": "2026-08-09T13:44:53Z",
     "url": "https://github.com/NousResearch/hermes-agent/pull/82505",
     "repository": {
