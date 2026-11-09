@@ -327,7 +327,7 @@
   {
     "number": 115027,
     "title": "fix(desktop): answer batch clarify on request socket",
-    "state": "OPEN",
+    "state": "CLOSED",
     "createdAt": "2026-09-18T10:45:21Z",
     "url": "https://github.com/NousResearch/hermes-agent/pull/115027",
     "repository": {
